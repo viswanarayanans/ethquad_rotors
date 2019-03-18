@@ -1,0 +1,5 @@
+rotors_joy_interface
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_joy_interface/rotors_joy_interface
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc /home/quad/viswa_ws/Rotors_sim/devel/lib/pkgconfig/rotors_joy_interface.pc

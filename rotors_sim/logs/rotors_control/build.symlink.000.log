@@ -1,0 +1,9 @@
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_control/cmake/rotors_controlConfig.cmake
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_control/cmake/rotors_controlConfig-version.cmake
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/libroll_pitch_yawrate_thrust_controller.so
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/liblee_position_controller.so
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_control/pcl_pcl2
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_control/lee_position_controller_node
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_control/periodic_snapshotter
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/pkgconfig/rotors_control.pc

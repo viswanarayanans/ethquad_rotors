@@ -1,0 +1,8 @@
+prefix=/home/quad/viswa_ws/Rotors_sim/install
+
+Name: mav_msgs
+Description: Description of mav_msgs
+Version: 3.3.2
+Cflags: -I/home/quad/viswa_ws/Rotors_sim/install/include -I/usr/include/eigen3
+Libs: -L/home/quad/viswa_ws/Rotors_sim/install/lib 
+Requires: message_runtime std_msgs geometry_msgs trajectory_msgs

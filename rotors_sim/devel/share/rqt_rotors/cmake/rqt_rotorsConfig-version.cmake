@@ -1,0 +1,1 @@
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake

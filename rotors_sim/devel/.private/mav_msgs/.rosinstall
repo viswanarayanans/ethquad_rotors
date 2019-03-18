@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/quad/viswa_ws/Rotors_sim/devel/.private/mav_msgs/setup.sh

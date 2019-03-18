@@ -1,0 +1,1 @@
+/home/quad/viswa_ws/Rotors_sim/devel/.private/catkin_tools_prebuild/setup.zsh

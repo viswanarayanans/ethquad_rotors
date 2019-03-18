@@ -1,0 +1,397 @@
+[rosmaster.main][INFO] 2019-03-04 12:46:53,962: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-03-04 12:46:53,963: Starting ROS Master Node
+[xmlrpc][INFO] 2019-03-04 12:46:53,964: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-03-04 12:46:53,964: Started XML-RPC server [http://viswa-HP-15:11311/]
+[xmlrpc][INFO] 2019-03-04 12:46:53,964: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-03-04 12:46:53,964: Master initialized: port[11311], uri[http://viswa-HP-15:11311/]
+[rosmaster.master][INFO] 2019-03-04 12:46:54,004: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,006: +PARAM [/roslaunch/uris/host_viswa_hp_15__38442] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,142: +PARAM [/iris/lee_position_controller_node/position_integral_gain/z] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,143: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,143: +PARAM [/iris/lee_position_controller_node/position_integral_gain/x] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,143: +PARAM [/iris/lee_position_controller_node/position_integral_gain/y] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,144: +PARAM [/iris/lee_position_controller_node/inertia/zz] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,144: +PARAM [/iris/lee_position_controller_node/rotor_configuration/2/direction] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,144: +PARAM [/iris/lee_position_controller_node/rotor_configuration/0/rotor_force_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,144: +SERVICE [/rosout/get_loggers] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,145: +PARAM [/iris/lee_position_controller_node/rotor_configuration/3/rotor_moment_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,145: +PARAM [/iris/lee_position_controller_node/payload_mass] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,145: +PARAM [/iris/lee_position_controller_node/rotor_configuration/1/arm_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,145: +PARAM [/iris/lee_position_controller_node/position_gain/x] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,146: +PARAM [/iris/lee_position_controller_node/position_gain/y] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,146: +PARAM [/iris/lee_position_controller_node/position_gain/z] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,146: +SERVICE [/rosout/set_logger_level] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,147: +PARAM [/iris/lee_position_controller_node/rotor_configuration/0/angle] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,147: +PARAM [/iris/lee_position_controller_node/rotor_configuration/2/rotor_moment_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,147: +PARAM [/iris/lee_position_controller_node/inertia/xy] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,147: +PARAM [/iris/lee_position_controller_node/rotor_configuration/1/rotor_moment_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,148: +PARAM [/iris/lee_position_controller_node/rotor_configuration/3/direction] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,148: +PARAM [/iris/lee_position_controller_node/rotor_configuration/2/arm_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,148: +PARAM [/iris/lee_position_controller_node/inertia/yy] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,149: +PARAM [/iris/lee_position_controller_node/rotor_configuration/0/arm_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,149: +PARAM [/iris/lee_position_controller_node/rotor_configuration/1/rotor_force_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,150: +PARAM [/iris/lee_position_controller_node/inertia/yz] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,150: +PARAM [/iris/lee_position_controller_node/attitude_gain/y] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,150: +PARAM [/iris/lee_position_controller_node/attitude_gain/x] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,151: +PARAM [/iris/lee_position_controller_node/attitude_gain/z] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,151: +PARAM [/iris/lee_position_controller_node/rotor_configuration/3/arm_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,151: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,152: +PARAM [/iris/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,152: +PARAM [/iris/lee_position_controller_node/rotor_configuration/3/rotor_force_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,152: +PARAM [/iris/lee_position_controller_node/rotor_configuration/1/direction] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,153: +SUB [/clock] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,153: +PARAM [/iris/lee_position_controller_node/rotor_configuration/3/angle] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,153: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,153: +PARAM [/iris/lee_position_controller_node/rotor_configuration/0/rotor_moment_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,154: +PARAM [/iris/lee_position_controller_node/rotor_configuration/2/angle] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,154: +PUB [/rosout_agg] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,154: +PARAM [/iris/lee_position_controller_node/rotor_configuration/0/direction] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,154: +PARAM [/iris/lee_position_controller_node/rotor_configuration/1/angle] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,155: +PARAM [/iris/lee_position_controller_node/rotor_configuration/2/rotor_force_constant] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,155: +PARAM [/iris/lee_position_controller_node/inertia/xz] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,155: +PARAM [/iris/lee_position_controller_node/inertia/xx] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,156: +PARAM [/iris/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,156: +PARAM [/iris/lee_position_controller_node/angular_rate_gain/z] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,156: +PARAM [/iris/lee_position_controller_node/mass] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,156: +PARAM [/iris/lee_position_controller_node/angular_rate_gain/x] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,157: +PARAM [/iris/lee_position_controller_node/angular_rate_gain/y] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,157: +PARAM [/iris/lee_position_controller_node/velocity_gain/x] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,158: +PARAM [/iris/lee_position_controller_node/velocity_gain/y] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,158: +PARAM [/iris/lee_position_controller_node/velocity_gain/z] by /roslaunch
+[rosmaster.master][INFO] 2019-03-04 12:46:54,164: +SUB [/rosout] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,231: +PUB [/rosout] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,232: +SERVICE [/iris/lee_position_controller_node/get_loggers] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,233: +SERVICE [/iris/lee_position_controller_node/set_logger_level] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,244: +SUB [/clock] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,254: +PUB [/rosout] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,256: +SERVICE [/iris/hovering_example/get_loggers] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,263: +SERVICE [/iris/hovering_example/set_logger_level] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,264: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/']
+[rosmaster.master][INFO] 2019-03-04 12:46:54,269: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:54,269: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/']
+[rosmaster.master][INFO] 2019-03-04 12:46:54,271: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:54,307: +PUB [/rosout] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,310: +SERVICE [/iris/robot_state_publisher/get_loggers] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,313: +SUB [/clock] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,315: +SERVICE [/iris/robot_state_publisher/set_logger_level] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,320: +PUB [/iris/command/trajectory] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,357: +SUB [/clock] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,366: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/']
+[rosmaster.master][INFO] 2019-03-04 12:46:54,367: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:54,376: +PUB [/tf] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,379: +PUB [/tf_static] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,412: +SUB [/iris/joint_states] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,456: +SUB [/iris/command/pose] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,477: +SUB [/iris/command/trajectory] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,494: +SUB [/iris/odometry_sensor1/odometry] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,495: +PUB [/iris/command/motor_speed] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,521: +SUB [/scan] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,815: +PUB [/rosout] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,821: +SUB [/clock] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,824: +SERVICE [/iris/joint_state_publisher/get_loggers] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,827: +SERVICE [/iris/joint_state_publisher/set_logger_level] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,867: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/']
+[rosmaster.master][INFO] 2019-03-04 12:46:54,868: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:54,890: +PUB [/iris/joint_states] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,894: +PUB [/rosout] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,895: +SERVICE [/gazebo/get_loggers] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,898: +SERVICE [/gazebo/set_logger_level] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,905: +SUB [/clock] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:54,969: publisherUpdate[/iris/joint_states] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:45459/']
+[rosmaster.master][INFO] 2019-03-04 12:46:54,969: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:54,970: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:54,971: publisherUpdate[/iris/joint_states] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,003: +PUB [/rosout] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,004: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,005: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,010: +SUB [/clock] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,071: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,072: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,126: +PUB [/rosout] /iris/spawn_iris http://viswa-HP-15:36469/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,131: +SUB [/clock] /iris/spawn_iris http://viswa-HP-15:36469/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,132: +SERVICE [/iris/spawn_iris/get_loggers] /iris/spawn_iris http://viswa-HP-15:36469/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,134: +SERVICE [/iris/spawn_iris/set_logger_level] /iris/spawn_iris http://viswa-HP-15:36469/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,172: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/', 'http://viswa-HP-15:36469/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,173: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/', 'http://viswa-HP-15:36469/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,423: +PUB [/clock] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,425: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,426: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,427: +SERVICE [/gazebo/delete_model] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,428: +SERVICE [/gazebo/delete_light] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,428: +SERVICE [/gazebo/get_model_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,429: +SERVICE [/gazebo/get_model_state] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,430: +SERVICE [/gazebo/get_world_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,430: +SERVICE [/gazebo/get_joint_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,431: +SERVICE [/gazebo/get_link_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,432: +SERVICE [/gazebo/get_link_state] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,432: +SERVICE [/gazebo/get_light_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,433: +SERVICE [/gazebo/set_light_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,434: +SERVICE [/gazebo/get_physics_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,434: +PUB [/gazebo/link_states] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,435: +PUB [/gazebo/model_states] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,435: +SERVICE [/gazebo/set_link_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,436: +SERVICE [/gazebo/set_physics_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,437: +SERVICE [/gazebo/set_model_state] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,438: +SERVICE [/gazebo/set_model_configuration] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,439: +SERVICE [/gazebo/set_joint_properties] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,439: +SERVICE [/gazebo/set_link_state] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,443: +SUB [/gazebo/set_link_state] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,448: +SUB [/gazebo/set_model_state] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,448: +SERVICE [/gazebo/pause_physics] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,449: +SERVICE [/gazebo/unpause_physics] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,450: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,450: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,451: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,452: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,452: +SERVICE [/gazebo/reset_simulation] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,454: +SERVICE [/gazebo/reset_world] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,473: publisherUpdate[/clock] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,474: publisherUpdate[/clock] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,474: publisherUpdate[/clock] -> http://viswa-HP-15:35445/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,474: publisherUpdate[/clock] -> http://viswa-HP-15:35308/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,474: publisherUpdate[/clock] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,475: publisherUpdate[/clock] -> http://viswa-HP-15:35308/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,476: publisherUpdate[/clock] -> http://viswa-HP-15:35445/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,476: publisherUpdate[/clock] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,476: publisherUpdate[/clock] -> http://viswa-HP-15:45459/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,476: publisherUpdate[/clock] -> http://viswa-HP-15:41487/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,477: publisherUpdate[/clock] -> http://viswa-HP-15:39751/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,479: publisherUpdate[/clock] -> http://viswa-HP-15:41487/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,479: publisherUpdate[/clock] -> http://viswa-HP-15:45459/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,479: publisherUpdate[/clock] -> http://viswa-HP-15:39751/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,479: publisherUpdate[/clock] -> http://viswa-HP-15:36469/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,481: publisherUpdate[/clock] -> http://viswa-HP-15:36469/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,492: +PUB [/tf] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,766: -SUB [/clock] /iris/spawn_iris http://viswa-HP-15:36469/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,767: -PUB [/rosout] /iris/spawn_iris http://viswa-HP-15:36469/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,767: -SERVICE [/iris/spawn_iris/set_logger_level] /iris/spawn_iris rosrpc://viswa-HP-15:34261
+[rosmaster.master][INFO] 2019-03-04 12:46:55,767: -SERVICE [/iris/spawn_iris/get_loggers] /iris/spawn_iris rosrpc://viswa-HP-15:34261
+[rosmaster.master][INFO] 2019-03-04 12:46:55,771: +PUB [/scan] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:55,780: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,780: publisherUpdate[/scan] -> http://viswa-HP-15:35445/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:55,781: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:55,781: publisherUpdate[/scan] -> http://viswa-HP-15:35445/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:56,340: +PUB [/iris/motor_speed] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,343: +PUB [/iris/joint_states] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,346: +PUB [/iris/motor_speed/0] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,354: +SUB [/iris/gazebo/command/motor_speed] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,359: +SUB [/iris/wind_speed] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,361: +PUB [/iris/motor_speed/1] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,371: +PUB [/iris/motor_speed/2] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,382: publisherUpdate[/iris/joint_states] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:56,383: publisherUpdate[/iris/joint_states] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:45459/', 'http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:56,385: +PUB [/iris/motor_speed/3] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,396: +PUB [/iris/gazebo/command/motor_speed] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,398: +PUB [/iris/imu] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,400: +PUB [/iris/ground_truth/imu] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,402: +PUB [/iris/ground_truth/pose] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,405: +PUB [/iris/ground_truth/pose_with_covariance] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,408: +PUB [/iris/ground_truth/position] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,411: +PUB [/iris/ground_truth/odometry] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,414: +PUB [/iris/ground_truth/transform] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,430: +SUB [/iris/command/motor_speed] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,436: +PUB [/iris/odometry_sensor1/pose] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,440: +PUB [/iris/odometry_sensor1/pose_with_covariance] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,442: +PUB [/iris/odometry_sensor1/position] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,445: +PUB [/iris/odometry_sensor1/odometry] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,447: +PUB [/iris/odometry_sensor1/transform] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,452: +SERVICE [/gazebo/set_parameters] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,454: +PUB [/gazebo/parameter_descriptions] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,455: +PUB [/gazebo/parameter_updates] /gazebo http://viswa-HP-15:41487/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,466: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,467: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,468: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,469: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,470: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,471: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,472: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:46:56,473: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,482: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,483: publisherUpdate[/iris/gazebo/command/motor_speed] -> http://viswa-HP-15:41487/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:56,485: publisherUpdate[/iris/gazebo/command/motor_speed] -> http://viswa-HP-15:41487/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:56,485: publisherUpdate[/iris/odometry_sensor1/odometry] -> http://viswa-HP-15:35445/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:46:56,486: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,487: publisherUpdate[/iris/odometry_sensor1/odometry] -> http://viswa-HP-15:35445/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:46:56,491: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,495: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,496: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,497: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,499: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,501: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,504: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,506: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,508: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,509: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,510: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,512: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,513: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,514: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,522: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,523: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,525: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,526: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,528: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,529: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,531: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,533: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,535: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,558: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,558: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,560: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,561: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,562: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,563: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,564: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,565: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,566: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,567: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,569: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,571: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,573: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,575: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,576: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,578: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,580: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,582: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,582: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,583: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,589: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,590: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,591: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,591: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,593: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,593: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,596: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,598: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:46:56,603: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-03-04 12:46:56,604: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-03-04 12:47:04,826: -SUB [/clock] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,826: -PUB [/iris/joint_states] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,826: -PUB [/rosout] /iris/joint_state_publisher http://viswa-HP-15:45459/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,827: -SERVICE [/iris/joint_state_publisher/get_loggers] /iris/joint_state_publisher rosrpc://viswa-HP-15:40368
+[rosmaster.master][INFO] 2019-03-04 12:47:04,827: -SERVICE [/iris/joint_state_publisher/set_logger_level] /iris/joint_state_publisher rosrpc://viswa-HP-15:40368
+[rosmaster.master][INFO] 2019-03-04 12:47:04,897: -PUB [/rosout] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,898: -PUB [/tf] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,899: -PUB [/tf_static] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,899: -SUB [/clock] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,900: publisherUpdate[/iris/joint_states] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:47:04,900: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']
+[rosmaster.master][INFO] 2019-03-04 12:47:04,901: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:40063/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:47:04,901: -SUB [/iris/joint_states] /iris/robot_state_publisher http://viswa-HP-15:40063/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,901: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']
+[rosmaster.master][INFO] 2019-03-04 12:47:04,902: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:35308/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:47:04,903: -SERVICE [/iris/robot_state_publisher/get_loggers] /iris/robot_state_publisher rosrpc://viswa-HP-15:51483
+[rosmaster.master][INFO] 2019-03-04 12:47:04,904: -SERVICE [/iris/robot_state_publisher/set_logger_level] /iris/robot_state_publisher rosrpc://viswa-HP-15:51483
+[rosmaster.master][INFO] 2019-03-04 12:47:04,906: publisherUpdate[/iris/joint_states] -> http://viswa-HP-15:40063/ ['http://viswa-HP-15:41487/']: sec=0.01, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2019-03-04 12:47:04,908: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-03-04 12:47:04,922: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,923: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,924: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://viswa-HP-15:58792
+[rosmaster.master][INFO] 2019-03-04 12:47:04,990: -PUB [/rosout] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,990: -PUB [/iris/command/trajectory] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,991: -SUB [/clock] /iris/hovering_example http://viswa-HP-15:35308/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,992: -SERVICE [/iris/hovering_example/get_loggers] /iris/hovering_example rosrpc://viswa-HP-15:56954
+[rosmaster.master][INFO] 2019-03-04 12:47:04,993: -PUB [/rosout] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,994: -SERVICE [/iris/hovering_example/set_logger_level] /iris/hovering_example rosrpc://viswa-HP-15:56954
+[rosmaster.master][INFO] 2019-03-04 12:47:04,995: -SUB [/clock] /gazebo_gui http://viswa-HP-15:39751/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,996: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://viswa-HP-15:58792
+[rosmaster.master][INFO] 2019-03-04 12:47:04,997: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://viswa-HP-15:58792
+[rosmaster.master][INFO] 2019-03-04 12:47:04,997: -PUB [/rosout] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,998: -PUB [/iris/command/motor_speed] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:04,999: -SUB [/clock] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:05,000: -SUB [/iris/command/pose] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:05,001: -SUB [/iris/command/trajectory] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:05,001: -SUB [/iris/odometry_sensor1/odometry] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:05,002: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']
+[rosmaster.master][INFO] 2019-03-04 12:47:05,003: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:41487/', 'http://viswa-HP-15:39751/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:47:05,004: -SUB [/scan] /iris/lee_position_controller_node http://viswa-HP-15:35445/
+[rosmaster.master][INFO] 2019-03-04 12:47:05,004: publisherUpdate[/iris/command/trajectory] -> http://viswa-HP-15:35445/ []
+[rosmaster.master][INFO] 2019-03-04 12:47:05,004: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:47:05,005: -SERVICE [/iris/lee_position_controller_node/get_loggers] /iris/lee_position_controller_node rosrpc://viswa-HP-15:49958
+[rosmaster.master][INFO] 2019-03-04 12:47:05,005: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:35445/', 'http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:47:05,006: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:41487/']
+[rosmaster.master][INFO] 2019-03-04 12:47:05,006: -SERVICE [/iris/lee_position_controller_node/set_logger_level] /iris/lee_position_controller_node rosrpc://viswa-HP-15:49958
+[rosmaster.master][INFO] 2019-03-04 12:47:05,006: publisherUpdate[/rosout] -> http://viswa-HP-15:46815/ ['http://viswa-HP-15:41487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-04 12:47:05,007: publisherUpdate[/iris/command/trajectory] -> http://viswa-HP-15:35445/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2019-03-04 12:47:05,007: publisherUpdate[/iris/command/motor_speed] -> http://viswa-HP-15:41487/ []
+[rosmaster.threadpool][ERROR] 2019-03-04 12:47:05,008: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-03-04 12:47:05,008: publisherUpdate[/iris/command/motor_speed] -> http://viswa-HP-15:41487/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2019-03-04 12:47:05,008: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-03-04 12:47:06,109: -PUB [/rosout_agg] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:47:06,110: -SUB [/clock] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:47:06,110: -SUB [/rosout] /rosout http://viswa-HP-15:46815/
+[rosmaster.master][INFO] 2019-03-04 12:47:06,111: -SERVICE [/rosout/get_loggers] /rosout rosrpc://viswa-HP-15:32880
+[rosmaster.master][INFO] 2019-03-04 12:47:06,112: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://viswa-HP-15:32880
+[rosmaster.main][INFO] 2019-03-04 12:47:06,130: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-03-04 12:47:06,130: stopping master...
+[rospy.core][INFO] 2019-03-04 12:47:06,131: signal_shutdown [atexit]

@@ -1,0 +1,13 @@
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/install.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/install/local.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/test.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/list_install_components.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/install/strip.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/tests.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/edit_cache.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/run_tests.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/rebuild_cache.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/download_extra_data.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/_catkin_empty_exported_target.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/clean_test_results.dir
+/home/quad/viswa_ws/Rotors_sim/build/rqt_rotors/CMakeFiles/doxygen.dir

@@ -1,0 +1,7 @@
+rotors_gazebo
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/lib/rotors_gazebo/hovering_example /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_gazebo/hovering_example
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_gazebo/waypoint_publisher
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher_file /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_gazebo/waypoint_publisher_file
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/lib/pkgconfig/rotors_gazebo.pc /home/quad/viswa_ws/Rotors_sim/devel/lib/pkgconfig/rotors_gazebo.pc

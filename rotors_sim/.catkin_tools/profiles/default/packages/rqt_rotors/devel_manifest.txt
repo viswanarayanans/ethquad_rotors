@@ -1,0 +1,4 @@
+rqt_rotors
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake /home/quad/viswa_ws/Rotors_sim/devel/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake /home/quad/viswa_ws/Rotors_sim/devel/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc /home/quad/viswa_ws/Rotors_sim/devel/lib/pkgconfig/rqt_rotors.pc

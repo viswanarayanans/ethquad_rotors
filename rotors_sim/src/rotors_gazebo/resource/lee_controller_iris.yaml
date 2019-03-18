@@ -1,0 +1,67 @@
+# Lee position controller parameters
+
+#Original Value
+# position_gain: {x: 6, y: 6, z: 6}
+# velocity_gain: {x: 4.7, y: 4.7, z: 4.7}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+#After adding Payload mass in Controller
+position_gain: {x: 6, y: 6, z: 6}
+velocity_gain: {x: 4.7, y: 4.7, z: 4.7}
+position_integral_gain: {x: 0.01, y: 0.01, z: 0.001}
+attitude_gain: {x: 2, y: 3.2, z: 0.15}
+angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+# For payload of 0.5kg and motor constant 8.548
+# position_gain: {x: 6, y: 6, z: 10}
+# velocity_gain: {x: 4.7, y: 4.7, z: 7.5}
+# position_integral_gain: {x: 0.001, y: 0.001, z: 0.06}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+# For payload of 0.3kg and motor constant 8.548 LG
+# position_gain: {x: 6, y: 6, z: 9}
+# velocity_gain: {x: 4.7, y: 4.7, z: 6.7}
+# position_integral_gain: {x: 0.001, y: 0.001, z: 0.0}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+#For payload of 0.3kg and motor constant 8.548 HG
+# position_gain: {x: 6, y: 6, z: 35}
+# velocity_gain: {x: 4.7, y: 4.7, z: 19}
+# position_integral_gain: {x: 0.001, y: 0.001, z: 0.05}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+#For payload of 0.3kg and motor constant 8.548 PD
+# position_gain: {x: 6, y: 6, z: 35}
+# velocity_gain: {x: 4.7, y: 4.7, z: 19}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+# For payload of 1kg and motor constant 16
+# position_gain: {x: 6, y: 6, z: 6}
+# velocity_gain: {x: 4.7, y: 4.7, z: 4.7}
+# attitude_gain: {x: 1.5, y: 3.9, z: 0.15}
+# angular_rate_gain: {x: 0.412, y: 0.52, z: 0.18}
+
+#For payload of 1kg and motor constant 12
+# position_gain: {x: 15, y: 15, z: 35}
+# velocity_gain: {x: 11, y: 10, z: 19}
+# attitude_gain: {x: 2.99, y: 4, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.5, z: 0.18}
+
+#For payload of 0.5kg and motor constant 8.548 Value 2
+# position_gain: {x: 6, y: 6, z: 12}
+# velocity_gain: {x: 4.7, y: 4.7, z: 8}
+# position_integral_gain: {x: 0.001, y: 0.001, z: 0.05}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}
+
+#For payload of 1kg and motor constant 8.548 
+# position_gain: {x: 6, y: 6, z: 20}
+# velocity_gain: {x: 6, y: 5, z: 10}
+# position_integral_gain: {x: 0.001, y: 0.001, z: 0.23}
+# attitude_gain: {x: 2, y: 3.2, z: 0.15}
+# angular_rate_gain: {x: 0.4, y: 0.52, z: 0.18}

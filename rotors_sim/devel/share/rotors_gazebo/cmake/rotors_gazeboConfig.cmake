@@ -1,0 +1,1 @@
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake

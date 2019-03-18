@@ -1,0 +1,6 @@
+devel_space: /home/quad/viswa_ws/Rotors_sim/devel
+install: false
+install_space: /home/quad/viswa_ws/Rotors_sim/install
+profile: default
+source_space: /home/quad/viswa_ws/Rotors_sim/src
+workspace: /home/quad/viswa_ws/Rotors_sim

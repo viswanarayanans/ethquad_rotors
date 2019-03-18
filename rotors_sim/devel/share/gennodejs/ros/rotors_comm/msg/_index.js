@@ -1,0 +1,1 @@
+/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/msg/_index.js

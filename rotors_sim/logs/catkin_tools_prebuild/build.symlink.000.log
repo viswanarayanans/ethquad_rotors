@@ -1,0 +1,8 @@
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/./setup.zsh
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/./setup.bash
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/./env.sh
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/./setup.sh
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/./_setup_util.py
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/pkgconfig/catkin_tools_prebuild.pc
