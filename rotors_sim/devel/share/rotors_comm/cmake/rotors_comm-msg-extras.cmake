@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_comm/share/rotors_comm/cmake/rotors_comm-msg-extras.cmake
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_comm/share/rotors_comm/cmake/rotors_comm-msg-extras.cmake

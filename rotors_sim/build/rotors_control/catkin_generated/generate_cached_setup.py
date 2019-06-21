@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in "/home/quad/viswa_ws/hector_slam/devel;/home/quad/viswa_ws/slam_gmapping/devel;/home/quad/viswa_ws/velodyne/devel;/home/quad/viswa_ws/ethzasl_icp_mapping/devel;/home/quad/viswa_ws/Rotors_sim/devel;/home/quad/kinect/devel;/home/quad/loitor_ws/devel;/home/quad/catkin_ws/devel;/opt/ros/kinetic".split(';'):
+    for workspace in "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel;/opt/ros/kinetic".split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/env.sh')
+code = generate_environment_script('/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/env.sh')
 
-output_filename = '/home/quad/viswa_ws/Rotors_sim/build/rotors_control/catkin_generated/setup_cached.sh'
+output_filename = '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

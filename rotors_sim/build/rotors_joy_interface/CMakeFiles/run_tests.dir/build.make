@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

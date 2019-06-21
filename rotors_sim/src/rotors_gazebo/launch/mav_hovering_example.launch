@@ -47,6 +47,9 @@
     <node pkg="rotors_control" type="periodic_snapshotter" output="screen" name="periodic_snapshotter" /> -->
 
    <node pkg="rotors_control" type="pcl_pcl2" name="pcl_boy" output="screen"/>
+   <node pkg="path_planning" type="goal_transform" name="goal" output="screen"/>
+   <node pkg="path_planning" type="path_planning_node" name="path" output="screen"/>
+   <node pkg="mav_trajectory_generation_ros" type="tg_new" name="tgen" output="screen"/>
 
   </group>
 </launch>

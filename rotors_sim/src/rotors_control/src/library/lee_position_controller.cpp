@@ -173,7 +173,7 @@ void LeePositionController::ComputeDesiredAcceleration(Eigen::Vector3d* accelera
   //Added by Viswa
   static Eigen::Vector3d position_error_integral;
 
-  if(integral_active_)
+  if(1)
   {
     position_error_integral = position_error_integral + position_error;
 

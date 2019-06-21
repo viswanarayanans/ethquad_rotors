@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.pdb"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.pdb"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so"
 )
 
 # Per-language clean rules from dependency scanning.

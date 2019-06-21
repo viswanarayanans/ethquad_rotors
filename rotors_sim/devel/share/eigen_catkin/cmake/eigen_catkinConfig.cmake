@@ -1,0 +1,1 @@
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/eigen_catkin/share/eigen_catkin/cmake/eigen_catkinConfig.cmake

@@ -1,14 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_planning_msgs_generate_messages_cpp"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonWithHolesStamped.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PointCloudWithPose.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialTrajectory4D.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonWithHoles.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialSegment4D.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/Polygon2D.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/Point2D.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonService.h"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PlannerService.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonWithHoles.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialTrajectory4D.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialSegment4D.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonWithHolesStamped.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PointCloudWithPose.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/Point2D.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/Polygon2D.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonService.h"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PlannerService.h"
 )
 
 # Per-language clean rules from dependency scanning.

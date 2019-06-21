@@ -1,0 +1,8 @@
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
+
+Name: path_planning
+Description: Description of path_planning
+Version: 0.0.0
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/include
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib -lpath_planning
+Requires: octomap_msgs octomap_ros pcl_conversions pcl_ros roscpp std_msgs

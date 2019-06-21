@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/rotors_evaluation
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_evaluation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/rotors_evaluation
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_evaluation
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/rotors_evaluation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/rotors_evaluation /home/quad/viswa_ws/Rotors_sim/src/rotors_evaluation /home/quad/viswa_ws/Rotors_sim/build/rotors_evaluation /home/quad/viswa_ws/Rotors_sim/build/rotors_evaluation /home/quad/viswa_ws/Rotors_sim/build/rotors_evaluation/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_evaluation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_evaluation /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_evaluation /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_evaluation /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_evaluation /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_evaluation/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

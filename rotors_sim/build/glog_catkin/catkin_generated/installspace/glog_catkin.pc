@@ -1,0 +1,8 @@
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
+
+Name: glog_catkin
+Description: Description of glog_catkin
+Version: 0.3.5
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/include
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib -lglog
+Requires: 

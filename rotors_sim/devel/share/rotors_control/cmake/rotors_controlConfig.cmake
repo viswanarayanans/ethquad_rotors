@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake

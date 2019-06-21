@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/setup.sh
+    local-name: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/setup.sh

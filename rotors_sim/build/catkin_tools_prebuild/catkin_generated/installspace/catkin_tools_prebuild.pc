@@ -1,8 +1,8 @@
-prefix=/home/quad/viswa_ws/Rotors_sim/install
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/quad/viswa_ws/Rotors_sim/install/lib 
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib 
 Requires: 

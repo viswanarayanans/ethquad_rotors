@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
 string
 -
 vector
@@ -26,9 +26,9 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
-/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/include/rotors_joy_interface/joy.h
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/include/rotors_joy_interface/joy.h
 geometry_msgs/PoseStamped.h
 -
 mav_msgs/RollPitchYawrateThrust.h
@@ -38,9 +38,9 @@ ros/ros.h
 sensor_msgs/Joy.h
 -
 
-/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/src/joy.cpp
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/src/joy.cpp
 rotors_joy_interface/joy.h
-/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/src/rotors_joy_interface/joy.h
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/src/rotors_joy_interface/joy.h
 mav_msgs/default_topics.h
 -
 

@@ -9,21 +9,12 @@
   CMakeLists.txt:16 (find_package)
 
 
-CMake Warning (dev) at CMakeLists.txt:65 (add_dependencies):
+CMake Warning (dev) at CMakeLists.txt:63 (add_dependencies):
   Policy CMP0046 is not set: Error on non-existent dependency in
   add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
   Use the cmake_policy command to set the policy and suppress this warning.
 
   The dependency target "$(catkin_EXPORTED_TARGETS)" of target "pcl_pcl2"
   does not exist.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at CMakeLists.txt:61 (add_dependencies):
-  Policy CMP0046 is not set: Error on non-existent dependency in
-  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
-  Use the cmake_policy command to set the policy and suppress this warning.
-
-  The dependency target "$(catkin_EXPORTED_TARGETS)" of target
-  "periodic_snapshotter" does not exist.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 

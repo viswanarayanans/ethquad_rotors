@@ -1,0 +1,8 @@
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
+
+Name: eigen_catkin
+Description: Description of eigen_catkin
+Version: 3.2.12
+Cflags: -I/usr/include/eigen3
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib 
+Requires: 

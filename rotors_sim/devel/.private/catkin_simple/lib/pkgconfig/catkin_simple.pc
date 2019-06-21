@@ -1,0 +1,8 @@
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/catkin_simple
+
+Name: catkin_simple
+Description: Description of catkin_simple
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/catkin_simple/lib 
+Requires: catkin

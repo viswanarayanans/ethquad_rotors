@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/manifest.l
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/manifest.l

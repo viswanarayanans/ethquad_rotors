@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sdf"
-  "/home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo/models/iris/iris.sdf"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo/models/iris/iris.sdf"
 )
 
 # Per-language clean rules from dependency scanning.

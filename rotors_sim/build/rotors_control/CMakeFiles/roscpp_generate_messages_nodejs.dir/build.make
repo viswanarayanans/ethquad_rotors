@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/rotors_control
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/rotors_control
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control
 
 # Utility rule file for roscpp_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 CMakeFiles/roscpp_generate_messages_nodejs.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/rotors_control /home/quad/viswa_ws/Rotors_sim/src/rotors_control /home/quad/viswa_ws/Rotors_sim/build/rotors_control /home/quad/viswa_ws/Rotors_sim/build/rotors_control /home/quad/viswa_ws/Rotors_sim/build/rotors_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 

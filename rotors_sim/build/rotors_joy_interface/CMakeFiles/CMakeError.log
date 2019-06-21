@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp
+Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8fae4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8fae4.dir/build.make CMakeFiles/cmTC_8fae4.dir/build
-make[1]: Entering directory '/home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8fae4.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_8fae4.dir/CheckSymbolExists.c.o   -c /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8fae4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fae4.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8fae4.dir/CheckSymbolExists.c.o  -o cmTC_8fae4 -rdynamic 
-CMakeFiles/cmTC_8fae4.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_a745e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a745e.dir/build.make CMakeFiles/cmTC_a745e.dir/build
+make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a745e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a745e.dir/CheckSymbolExists.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a745e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a745e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a745e.dir/CheckSymbolExists.c.o  -o cmTC_a745e -rdynamic 
+CMakeFiles/cmTC_a745e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8fae4.dir/build.make:97: recipe for target 'cmTC_8fae4' failed
-make[1]: *** [cmTC_8fae4] Error 1
-make[1]: Leaving directory '/home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8fae4/fast' failed
-make: *** [cmTC_8fae4/fast] Error 2
+CMakeFiles/cmTC_a745e.dir/build.make:97: recipe for target 'cmTC_a745e' failed
+make[1]: *** [cmTC_a745e] Error 1
+make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a745e/fast' failed
+make: *** [cmTC_a745e/fast] Error 2
 
-File /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp
+Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3cbc2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3cbc2.dir/build.make CMakeFiles/cmTC_3cbc2.dir/build
-make[1]: Entering directory '/home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3cbc2.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3cbc2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3cbc2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cbc2.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3cbc2.dir/CheckFunctionExists.c.o  -o cmTC_3cbc2 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_353fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_353fc.dir/build.make CMakeFiles/cmTC_353fc.dir/build
+make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_353fc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_353fc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_353fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_353fc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_353fc.dir/CheckFunctionExists.c.o  -o cmTC_353fc -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3cbc2.dir/build.make:97: recipe for target 'cmTC_3cbc2' failed
-make[1]: *** [cmTC_3cbc2] Error 1
-make[1]: Leaving directory '/home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3cbc2/fast' failed
-make: *** [cmTC_3cbc2/fast] Error 2
+CMakeFiles/cmTC_353fc.dir/build.make:97: recipe for target 'cmTC_353fc' failed
+make[1]: *** [cmTC_353fc] Error 1
+make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_353fc/fast' failed
+make: *** [cmTC_353fc/fast] Error 2
 
 

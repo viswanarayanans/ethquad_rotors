@@ -1,8 +1,8 @@
-prefix=/home/quad/viswa_ws/Rotors_sim/install
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
 
 Name: rotors_comm
 Description: Description of rotors_comm
 Version: 2.1.1
-Cflags: -I/home/quad/viswa_ws/Rotors_sim/install/include
-Libs: -L/home/quad/viswa_ws/Rotors_sim/install/lib 
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/include
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib 
 Requires: message_runtime

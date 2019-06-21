@@ -1,0 +1,7 @@
+mav_trajectory_generation/mav_visualization
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/lib/libmav_visualization.so /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib/libmav_visualization.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/lib/mav_visualization/leica_publisher /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib/mav_visualization/leica_publisher
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/lib/mav_visualization/hexacopter_publisher /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib/mav_visualization/hexacopter_publisher
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/lib/pkgconfig/mav_visualization.pc /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib/pkgconfig/mav_visualization.pc
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/share/mav_visualization/cmake/mav_visualizationConfig-version.cmake /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/share/mav_visualization/cmake/mav_visualizationConfig-version.cmake
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/share/mav_visualization/cmake/mav_visualizationConfig.cmake /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/share/mav_visualization/cmake/mav_visualizationConfig.cmake

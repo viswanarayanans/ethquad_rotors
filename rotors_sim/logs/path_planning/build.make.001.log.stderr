@@ -1,0 +1,1 @@
+/usr/bin/ld: warning: liboctomath.so.1.8, needed by /opt/ros/kinetic/lib/liboctomap.so, may conflict with liboctomath.so.1.6

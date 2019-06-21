@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/catkin_tools_prebuild/env.sh
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/catkin_tools_prebuild/env.sh

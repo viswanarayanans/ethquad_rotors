@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.pdb"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.pdb"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

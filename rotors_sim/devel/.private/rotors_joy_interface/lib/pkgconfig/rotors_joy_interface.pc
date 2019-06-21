@@ -1,8 +1,8 @@
-prefix=/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_joy_interface
 
 Name: rotors_joy_interface
 Description: Description of rotors_joy_interface
 Version: 2.1.1
-Cflags: -I/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/include
-Libs: -L/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/lib 
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/include
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_joy_interface/lib 
 Requires: roscpp geometry_msgs mav_msgs sensor_msgs trajectory_msgs

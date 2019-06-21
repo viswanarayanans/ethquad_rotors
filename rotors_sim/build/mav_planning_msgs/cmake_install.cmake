@@ -1,8 +1,8 @@
-# Install script for directory: /home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs
+# Install script for directory: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/quad/viswa_ws/Rotors_sim/install")
+  set(CMAKE_INSTALL_PREFIX "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,140 +44,146 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/_setup_util.py")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE PROGRAM FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE PROGRAM FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/env.sh")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE PROGRAM FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE PROGRAM FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/setup.bash")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/setup.sh")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/setup.zsh")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/.rosinstall")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/msg" TYPE FILE FILES
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/Point2D.msg"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/PointCloudWithPose.msg"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/Polygon2D.msg"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolygonWithHoles.msg"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/Point2D.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/PointCloudWithPose.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/Polygon2D.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolygonWithHoles.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/srv" TYPE FILE FILES
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv"
-    "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/srv/PolygonService.srv"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/srv/PolygonService.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/include/mav_planning_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES
-    "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig.cmake"
-    "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig-version.cmake"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig.cmake"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs/package.xml")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/gtest/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -188,5 +194,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

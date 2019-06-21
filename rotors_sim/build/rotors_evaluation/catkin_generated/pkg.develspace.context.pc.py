@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rotors_evaluation"
-PROJECT_SPACE_DIR = "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_evaluation"
+PROJECT_SPACE_DIR = "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_evaluation"
 PROJECT_VERSION = "2.1.1"

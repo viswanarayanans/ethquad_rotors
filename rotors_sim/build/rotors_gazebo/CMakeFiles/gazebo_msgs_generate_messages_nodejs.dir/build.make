@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo
 
 # Utility rule file for gazebo_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo /home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo /home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo /home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo /home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/depend
 

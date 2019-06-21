@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface.pdb"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface.pdb"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface"
 )
 
 # Per-language clean rules from dependency scanning.

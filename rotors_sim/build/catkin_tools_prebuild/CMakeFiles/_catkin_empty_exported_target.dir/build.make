@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild /home/quad/viswa_ws/Rotors_sim/build/catkin_tools_prebuild/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/catkin_tools_prebuild/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

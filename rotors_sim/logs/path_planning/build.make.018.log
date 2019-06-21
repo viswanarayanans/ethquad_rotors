@@ -1,0 +1,6 @@
+[ 16%] Built target old_path_planning
+[ 33%] Built target goal_transform
+[ 50%] Built target path_planning_node
+[ 66%] Built target scale
+[ 83%] Built target traj_gen
+[100%] Built target transform_pointcloud

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"rotors_joy_interface\"
 
-CXX_INCLUDES = -I/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/include -I/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_msgs/include -I/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/include -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_msgs/include -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

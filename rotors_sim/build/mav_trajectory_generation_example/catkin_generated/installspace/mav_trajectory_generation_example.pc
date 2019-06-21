@@ -1,0 +1,8 @@
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
+
+Name: mav_trajectory_generation_example
+Description: Description of mav_trajectory_generation_example
+Version: 0.0.0
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/include
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib 
+Requires: eigen_catkin mav_msgs mav_trajectory_generation mav_trajectory_generation_ros mav_visualization mav_planning_msgs eigen_checks roslib

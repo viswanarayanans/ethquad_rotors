@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_evaluation/share/rotors_evaluation/cmake/rotors_evaluationConfig-version.cmake
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_evaluation/share/rotors_evaluation/cmake/rotors_evaluationConfig-version.cmake

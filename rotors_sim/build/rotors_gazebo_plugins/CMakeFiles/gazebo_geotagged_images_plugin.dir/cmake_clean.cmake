@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.pdb"
-  "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.pdb"
+  "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

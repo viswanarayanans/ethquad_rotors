@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface /home/quad/viswa_ws/Rotors_sim/build/rotors_joy_interface/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_joy_interface/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

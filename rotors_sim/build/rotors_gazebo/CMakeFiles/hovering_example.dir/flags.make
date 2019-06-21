@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -std=c++11   -std=c++11
 
-CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"rotors_gazebo\"
+CXX_DEFINES = -DLIBBULLET_VERSION=2.83 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"rotors_gazebo\"
 
-CXX_INCLUDES = -I/home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo/include -I/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_msgs/include -I/home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo/include -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_msgs/include -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

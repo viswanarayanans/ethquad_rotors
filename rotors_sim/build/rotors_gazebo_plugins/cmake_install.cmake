@@ -1,8 +1,8 @@
-# Install script for directory: /home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo_plugins
+# Install script for directory: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/quad/viswa_ws/Rotors_sim/install")
+  set(CMAKE_INSTALL_PREFIX "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,89 +44,89 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/_setup_util.py")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE PROGRAM FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE PROGRAM FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/env.sh")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE PROGRAM FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE PROGRAM FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/setup.bash")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/setup.sh")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/setup.zsh")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/quad/viswa_ws/Rotors_sim/install/.rosinstall")
+   "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/quad/viswa_ws/Rotors_sim/install" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins/cmake" TYPE FILE FILES
-    "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
-    "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
+    "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/quad/viswa_ws/Rotors_sim/src/rotors_gazebo_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -136,12 +136,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
@@ -156,12 +156,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
@@ -176,12 +176,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
@@ -196,12 +196,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
@@ -216,12 +216,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
@@ -236,12 +236,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
@@ -256,12 +256,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
@@ -276,12 +276,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
@@ -296,12 +296,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
@@ -316,12 +316,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
@@ -336,12 +336,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
@@ -356,12 +356,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
@@ -376,12 +376,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
@@ -396,12 +396,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
@@ -416,17 +416,23 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib:/home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib:/opt/ros/kinetic/lib:/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib:/usr/local/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-8/plugins:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
     endif()
   endif()
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -437,5 +443,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/quad/viswa_ws/Rotors_sim/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_msgs/share/mav_msgs/cmake/mav_msgs-msg-paths.cmake
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_msgs/share/mav_msgs/cmake/mav_msgs-msg-paths.cmake

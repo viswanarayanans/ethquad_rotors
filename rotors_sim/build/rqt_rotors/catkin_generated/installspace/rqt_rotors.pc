@@ -1,8 +1,8 @@
-prefix=/home/quad/viswa_ws/Rotors_sim/install
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
 
 Name: rqt_rotors
 Description: Description of rqt_rotors
 Version: 2.1.1
 Cflags: 
-Libs: -L/home/quad/viswa_ws/Rotors_sim/install/lib 
-Requires: 
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib 
+Requires: mavros_msgs rospy rqt_gui rqt_gui_py

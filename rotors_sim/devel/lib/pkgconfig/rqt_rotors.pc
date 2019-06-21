@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc

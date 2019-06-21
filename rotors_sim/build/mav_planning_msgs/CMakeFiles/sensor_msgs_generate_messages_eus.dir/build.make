@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs
 
 # Utility rule file for sensor_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs /home/quad/viswa_ws/Rotors_sim/src/mav_comm/mav_planning_msgs /home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs /home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs /home/quad/viswa_ws/Rotors_sim/build/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_planning_msgs /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 

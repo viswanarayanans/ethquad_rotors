@@ -1,0 +1,1 @@
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation_example/share/mav_trajectory_generation_example/cmake/mav_trajectory_generation_exampleConfig.cmake

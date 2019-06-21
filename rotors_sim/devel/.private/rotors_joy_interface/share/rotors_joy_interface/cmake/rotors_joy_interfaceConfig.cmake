@@ -67,14 +67,14 @@ set(rotors_joy_interface_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(rotors_joy_interface_SOURCE_PREFIX /home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface)
-  set(rotors_joy_interface_DEVEL_PREFIX /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface)
+  set(rotors_joy_interface_SOURCE_PREFIX /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface)
+  set(rotors_joy_interface_DEVEL_PREFIX /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_joy_interface)
   set(rotors_joy_interface_INSTALL_PREFIX "")
   set(rotors_joy_interface_PREFIX ${rotors_joy_interface_DEVEL_PREFIX})
 else()
   set(rotors_joy_interface_SOURCE_PREFIX "")
   set(rotors_joy_interface_DEVEL_PREFIX "")
-  set(rotors_joy_interface_INSTALL_PREFIX /home/quad/viswa_ws/Rotors_sim/install)
+  set(rotors_joy_interface_INSTALL_PREFIX /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install)
   set(rotors_joy_interface_PREFIX ${rotors_joy_interface_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rotors_joy_interface_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/include " STREQUAL " ")
+if(NOT "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/include " STREQUAL " ")
   set(rotors_joy_interface_INCLUDE_DIRS "")
-  set(_include_dirs "/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/include")
+  set(_include_dirs "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/include")
   if(NOT "https://github.com/ethz-asl/rotors_simulator/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ethz-asl/rotors_simulator/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/ethz-asl/rotors_simulator " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/include " STREQU
         message(FATAL_ERROR "Project 'rotors_joy_interface' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'rotors_joy_interface' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/quad/viswa_ws/Rotors_sim/src/rotors_joy_interface/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'rotors_joy_interface' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_joy_interface/${idir}'.  ${_report}")
     endif()
     _list_append_unique(rotors_joy_interface_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_joy_interface/lib;/home/quad/viswa_ws/hector_slam/devel/lib;/home/quad/viswa_ws/slam_gmapping/devel/lib;/home/quad/viswa_ws/velodyne/devel/lib;/home/quad/viswa_ws/ethzasl_icp_mapping/devel/lib;/home/quad/viswa_ws/Rotors_sim/devel/lib;/home/quad/kinect/devel/lib;/home/quad/loitor_ws/devel/lib;/home/quad/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_joy_interface/lib;/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

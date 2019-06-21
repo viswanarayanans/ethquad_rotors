@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
   cmake_modules
-  laser_assembler
+
 )
 
 find_package(Eigen REQUIRED)
@@ -18,7 +18,7 @@ find_package(Eigen REQUIRED)
 catkin_package(
   INCLUDE_DIRS include ${Eigen_INCLUDE_DIRS}
   LIBRARIES lee_position_controller roll_pitch_yawrate_thrust_controller
-  CATKIN_DEPENDS geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs laser_assembler
+  CATKIN_DEPENDS geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs 
   DEPENDS Eigen
 )
 
@@ -56,9 +56,7 @@ add_dependencies(roll_pitch_yawrate_thrust_controller_node ${catkin_EXPORTED_TAR
 target_link_libraries(roll_pitch_yawrate_thrust_controller_node
   roll_pitch_yawrate_thrust_controller ${catkin_LIBRARIES})
 
-add_executable(periodic_snapshotter src/nodes/periodic_snapshotter.cpp)
-target_link_libraries(periodic_snapshotter ${catkin_LIBRARIES})
-add_dependencies(periodic_snapshotter $(catkin_EXPORTED_TARGETS))
+
 
 add_executable(pcl_pcl2 src/nodes/pcl_pcl2.cpp)
 target_link_libraries(pcl_pcl2 ${catkin_LIBRARIES})

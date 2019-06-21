@@ -1,8 +1,8 @@
-prefix=/home/quad/viswa_ws/Rotors_sim/install
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install
 
 Name: rotors_control
 Description: Description of rotors_control
 Version: 2.1.1
-Cflags: -I/home/quad/viswa_ws/Rotors_sim/install/include -I/usr/local/include/eigen3
-Libs: -L/home/quad/viswa_ws/Rotors_sim/install/lib -llee_position_controller -lroll_pitch_yawrate_thrust_controller
-Requires: geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs laser_assembler
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/include -I/usr/include/eigen3
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install/lib -llee_position_controller -lroll_pitch_yawrate_thrust_controller
+Requires: geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs

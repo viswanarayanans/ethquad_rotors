@@ -1,0 +1,10 @@
+[ 16%] Built target old_path_planning
+[ 33%] Built target goal_transform
+[35m[1mScanning dependencies of target path_planning_node[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/path_planning_node.dir/src/path_planning.cpp.o[0m
+[ 58%] Built target scale
+[ 75%] Built target transform_pointcloud
+[ 91%] Built target traj_gen
+[100%] [32m[1mLinking CXX executable /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/path_planning/lib/path_planning/path_planning_node[0m
+/usr/bin/ld: warning: liboctomath.so.1.8, needed by /opt/ros/kinetic/lib/liboctomap.so, may conflict with liboctomath.so.1.6
+[100%] Built target path_planning_node

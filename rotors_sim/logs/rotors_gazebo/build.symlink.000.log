@@ -1,6 +1,0 @@
-Symlinking /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
-Symlinking /home/quad/viswa_ws/Rotors_sim/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
-Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_gazebo/hovering_example
-Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_gazebo/waypoint_publisher
-Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/rotors_gazebo/waypoint_publisher_file
-Symlinking /home/quad/viswa_ws/Rotors_sim/devel/lib/pkgconfig/rotors_gazebo.pc

@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/GpsWaypoint.js
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/GpsWaypoint.js

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control:$CMAKE_PREFIX_PATH"
-export PWD="/home/quad/viswa_ws/Rotors_sim/build/rotors_control"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/quad/viswa_ws/Rotors_sim/src/rotors_control:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control:$CMAKE_PREFIX_PATH"
+export PWD="/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control:$ROS_PACKAGE_PATH"

@@ -67,14 +67,14 @@ set(rotors_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(rotors_control_SOURCE_PREFIX /home/quad/viswa_ws/Rotors_sim/src/rotors_control)
-  set(rotors_control_DEVEL_PREFIX /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control)
+  set(rotors_control_SOURCE_PREFIX /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control)
+  set(rotors_control_DEVEL_PREFIX /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control)
   set(rotors_control_INSTALL_PREFIX "")
   set(rotors_control_PREFIX ${rotors_control_DEVEL_PREFIX})
 else()
   set(rotors_control_SOURCE_PREFIX "")
   set(rotors_control_DEVEL_PREFIX "")
-  set(rotors_control_INSTALL_PREFIX /home/quad/viswa_ws/Rotors_sim/install)
+  set(rotors_control_INSTALL_PREFIX /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/install)
   set(rotors_control_PREFIX ${rotors_control_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rotors_control_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/quad/viswa_ws/Rotors_sim/src/rotors_control/include;/usr/local/include/eigen3 " STREQUAL " ")
+if(NOT "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/include;/usr/include/eigen3 " STREQUAL " ")
   set(rotors_control_INCLUDE_DIRS "")
-  set(_include_dirs "/home/quad/viswa_ws/Rotors_sim/src/rotors_control/include;/usr/local/include/eigen3")
+  set(_include_dirs "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/include;/usr/include/eigen3")
   if(NOT "https://github.com/ethz-asl/rotors_simulator/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ethz-asl/rotors_simulator/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/ethz-asl/rotors_simulator " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/quad/viswa_ws/Rotors_sim/src/rotors_control/include;/usr/local/inc
         message(FATAL_ERROR "Project 'rotors_control' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'rotors_control' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/quad/viswa_ws/Rotors_sim/src/rotors_control/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'rotors_control' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/${idir}'.  ${_report}")
     endif()
     _list_append_unique(rotors_control_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib;/home/quad/viswa_ws/hector_slam/devel/lib;/home/quad/viswa_ws/slam_gmapping/devel/lib;/home/quad/viswa_ws/velodyne/devel/lib;/home/quad/viswa_ws/ethzasl_icp_mapping/devel/lib;/home/quad/viswa_ws/Rotors_sim/devel/lib;/home/quad/kinect/devel/lib;/home/quad/loitor_ws/devel/lib;/home/quad/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib;/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -160,7 +160,7 @@ foreach(t ${rotors_control_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "geometry_msgs;mav_msgs;nav_msgs;roscpp;sensor_msgs;laser_assembler")
+set(depends "geometry_msgs;mav_msgs;nav_msgs;roscpp;sensor_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

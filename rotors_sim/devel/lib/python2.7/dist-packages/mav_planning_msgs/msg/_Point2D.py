@@ -1,1 +1,1 @@
-/home/quad/viswa_ws/Rotors_sim/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/msg/_Point2D.py
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/msg/_Point2D.py

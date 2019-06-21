@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/quad/viswa_ws/Rotors_sim/src/rotors_control
+CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/quad/viswa_ws/Rotors_sim/build/rotors_control
+CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/progress.make
 include CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/flags.make
 
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/flags.make
-CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /home/quad/viswa_ws/Rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quad/viswa_ws/Rotors_sim/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o -c /home/quad/viswa_ws/Rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp
+CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp
 
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/quad/viswa_ws/Rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp > CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp > CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.i
 
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/quad/viswa_ws/Rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp -o CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp -o CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.s
 
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o.requires:
 
@@ -88,54 +88,34 @@ roll_pitch_yawrate_thrust_controller_node_OBJECTS = \
 # External object files for target roll_pitch_yawrate_thrust_controller_node
 roll_pitch_yawrate_thrust_controller_node_EXTERNAL_OBJECTS =
 
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build.make
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libtf.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /home/quad/viswa_ws/slam_gmapping/devel/.private/tf2_ros/lib/libtf2_ros.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /home/quad/viswa_ws/slam_gmapping/devel/.private/tf2/lib/libtf2.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/liblaser_geometry.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libmean.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libparams.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libincrement.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libmedian.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libtransfer_function.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/libPocoFoundation.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libroslib.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librospack.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librostime.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/quad/viswa_ws/Rotors_sim/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node"
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build.make
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/librostime.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node: CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build: /home/quad/viswa_ws/Rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
+CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
 
 .PHONY : CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build
 
@@ -148,6 +128,6 @@ CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/clean:
 .PHONY : CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/clean
 
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/depend:
-	cd /home/quad/viswa_ws/Rotors_sim/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/quad/viswa_ws/Rotors_sim/src/rotors_control /home/quad/viswa_ws/Rotors_sim/src/rotors_control /home/quad/viswa_ws/Rotors_sim/build/rotors_control /home/quad/viswa_ws/Rotors_sim/build/rotors_control /home/quad/viswa_ws/Rotors_sim/build/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/depend
 
