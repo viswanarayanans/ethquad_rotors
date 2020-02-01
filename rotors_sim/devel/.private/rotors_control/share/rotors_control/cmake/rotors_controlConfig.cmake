@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib;/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_control/lib;/home/viswa/rotors_quad/Trial_Repo/gazebo_link_attacher_ws/devel/lib;/home/viswa/.local/share/Trash/files/link_attach/gazebo_link_attacher_ws/devel/lib;/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

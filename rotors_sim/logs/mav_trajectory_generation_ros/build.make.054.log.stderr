@@ -1,0 +1,28 @@
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:235:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint traj_size[m[K’
+   int traj_size = states.size();        
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:111:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint traj_size[m[K’ previously declared here
+   int traj_size = states.size();        
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:252:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kvisualization_msgs::MarkerArray markers[m[K’
+   visualization_msgs::MarkerArray markers;
+[01;32m[K                                   ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:128:35:[m[K [01;36m[Knote: [m[K‘[01m[Kvisualization_msgs::MarkerArray markers[m[K’ previously declared here
+   visualization_msgs::MarkerArray markers;
+[01;32m[K                                   ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:253:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble distance[m[K’
+   double distance = 1.0; // Distance by which to seperate additional markers. Set 0.0 to disable.
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:129:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble distance[m[K’ previously declared here
+   double distance = 1.0; // Distance by which to seperate additional markers. Set 0.0 to disable.
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:254:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::__cxx11::string frame_id[m[K’
+   std::string frame_id = "world";
+[01;32m[K               ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:130:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::string frame_id[m[K’ previously declared here
+   std::string frame_id = "world";
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/traj_gen.dir/src/traj_gen.cpp.o] Error 1
+make[1]: *** [CMakeFiles/traj_gen.dir/all] Error 2
+make: *** [all] Error 2

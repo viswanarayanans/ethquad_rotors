@@ -38,10 +38,12 @@ void LeePositionController::InitializeParameters() {
 
   //Added by Viswa : To add payload mass with base mass
   normalized_mass = vehicle_parameters_.mass_ + vehicle_parameters_.payload_mass_;
+
+
   
 
   Eigen::Matrix4d I;
-  I.setZero();
+  I.setIdentity();
   I.block<3, 3>(0, 0) = vehicle_parameters_.inertia_;
   I(3, 3) = 1;
 
@@ -55,6 +57,17 @@ void LeePositionController::InitializeParameters() {
   angular_acc_to_rotor_velocities_ = controller_parameters_.allocation_matrix_.transpose()
       * (controller_parameters_.allocation_matrix_
       * controller_parameters_.allocation_matrix_.transpose()).inverse() * I;
+  
+  // ROS_INFO_STREAM("Gains \n" << normalized_attitude_gain_ << "\n" << normalized_angular_rate_gain_);
+  // ROS_INFO_STREAM("allocation_matrix_\n" << controller_parameters_.allocation_matrix_);
+  // ROS_INFO_STREAM("I \n" << I);
+  ROS_INFO_STREAM("angular_acc_to_rotor_velocities_\n" << angular_acc_to_rotor_velocities_);
+  // ROS_INFO_STREAM("\n"<< (controller_parameters_.allocation_matrix_
+  //     * controller_parameters_.allocation_matrix_.transpose()));
+  // ROS_INFO_STREAM("\n"<< controller_parameters_.allocation_matrix_.transpose()
+  //     * (controller_parameters_.allocation_matrix_
+  //     * controller_parameters_.allocation_matrix_.transpose()).inverse());
+
   initialized_params_ = true;
 }
 
@@ -63,6 +76,8 @@ void LeePositionController::CalculateRotorVelocities(Eigen::VectorXd* rotor_velo
   assert(initialized_params_);
 
   rotor_velocities->resize(vehicle_parameters_.rotor_configuration_.rotors.size());
+  // ROS_INFO_STREAM("Rotor velocities calculated: " << rotor_velocities->size());
+  
   // Return 0 velocities on all rotors, until the first command is received.
   if (!controller_active_) {
     *rotor_velocities = Eigen::VectorXd::Zero(rotor_velocities->rows());
@@ -235,7 +250,7 @@ void LeePositionController::ComputeDesiredAngularAcc(const Eigen::Vector3d& acce
 
   *angular_acceleration = -1 * angle_error.cwiseProduct(normalized_attitude_gain_)
                            - angular_rate_error.cwiseProduct(normalized_angular_rate_gain_)
-                           + odometry_.angular_velocity.cross(odometry_.angular_velocity); // we don't need the inertia matrix here
+                           + odometry_.angular_velocity.cross(vehicle_parameters_.inertia_ * odometry_.angular_velocity); // we don't need the inertia matrix here
 }
 
 

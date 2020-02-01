@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-50-generic - x86_64
+The system is: Linux - 4.15.0-72-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,39 +28,39 @@ The CXX compiler identification is GNU, found in "/home/viswa/rotors_quad/ethqua
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aeedc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aeedc.dir/build.make CMakeFiles/cmTC_aeedc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_02324/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02324.dir/build.make CMakeFiles/cmTC_02324.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aeedc.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_aeedc.dir/testCCompiler.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_aeedc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeedc.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_aeedc.dir/testCCompiler.c.o  -o cmTC_aeedc -rdynamic 
+Building C object CMakeFiles/cmTC_02324.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_02324.dir/testCCompiler.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_02324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02324.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_02324.dir/testCCompiler.c.o  -o cmTC_02324 -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed816/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed816.dir/build.make CMakeFiles/cmTC_ed816.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0dd21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dd21.dir/build.make CMakeFiles/cmTC_0dd21.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ed816
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed816.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o  -o cmTC_ed816 -rdynamic  
+Building C object CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0dd21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dd21.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o  -o cmTC_0dd21 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed816' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx3XqzB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ed816 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0dd21' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRBobZC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0dd21 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -68,30 +68,30 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ed816/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ed816.dir/build.make CMakeFiles/cmTC_ed816.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0dd21/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0dd21.dir/build.make CMakeFiles/cmTC_0dd21.dir/build]
   ignore line: [make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ed816]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed816.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o  -o cmTC_ed816 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0dd21]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dd21.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o  -o cmTC_0dd21 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed816' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx3XqzB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ed816 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0dd21' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRBobZC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0dd21 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccx3XqzB.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRBobZC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ed816] ==> ignore
+    arg [cmTC_0dd21] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_ed816.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0dd21.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b8d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b8d7.dir/build.make CMakeFiles/cmTC_4b8d7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_86c0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86c0b.dir/build.make CMakeFiles/cmTC_86c0b.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4b8d7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_4b8d7.dir/feature_tests.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4b8d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8d7.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4b8d7.dir/feature_tests.c.o  -o cmTC_4b8d7 -rdynamic 
+Building C object CMakeFiles/cmTC_86c0b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_86c0b.dir/feature_tests.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.c
+Linking C executable cmTC_86c0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86c0b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_86c0b.dir/feature_tests.c.o  -o cmTC_86c0b -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/bu
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_36d21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_36d21.dir/build.make CMakeFiles/cmTC_36d21.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_01bc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01bc2.dir/build.make CMakeFiles/cmTC_01bc2.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_36d21.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_36d21.dir/feature_tests.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.c
-Linking C executable cmTC_36d21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d21.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_36d21.dir/feature_tests.c.o  -o cmTC_36d21 -rdynamic 
+Building C object CMakeFiles/cmTC_01bc2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_01bc2.dir/feature_tests.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.c
+Linking C executable cmTC_01bc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01bc2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_01bc2.dir/feature_tests.c.o  -o cmTC_01bc2 -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/bu
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_745c6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_745c6.dir/build.make CMakeFiles/cmTC_745c6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de04a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de04a.dir/build.make CMakeFiles/cmTC_de04a.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_745c6.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_745c6.dir/feature_tests.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.c
-Linking C executable cmTC_745c6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_745c6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_745c6.dir/feature_tests.c.o  -o cmTC_745c6 -rdynamic 
+Building C object CMakeFiles/cmTC_de04a.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_de04a.dir/feature_tests.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.c
+Linking C executable cmTC_de04a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de04a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_de04a.dir/feature_tests.c.o  -o cmTC_de04a -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -213,39 +213,39 @@ make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/bu
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86f38/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86f38.dir/build.make CMakeFiles/cmTC_86f38.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ad5ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad5ab.dir/build.make CMakeFiles/cmTC_ad5ab.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_86f38.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_86f38.dir/testCXXCompiler.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_86f38
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86f38.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_86f38.dir/testCXXCompiler.cxx.o  -o cmTC_86f38 -rdynamic 
+Building CXX object CMakeFiles/cmTC_ad5ab.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ad5ab.dir/testCXXCompiler.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ad5ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad5ab.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ad5ab.dir/testCXXCompiler.cxx.o  -o cmTC_ad5ab -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e95c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e95c.dir/build.make CMakeFiles/cmTC_7e95c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d56bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d56bf.dir/build.make CMakeFiles/cmTC_d56bf.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7e95c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e95c.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7e95c -rdynamic  
+Building CXX object CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d56bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d56bf.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d56bf -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e95c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9P8iJ0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7e95c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d56bf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHy2YNZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d56bf /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -253,30 +253,30 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7e95c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7e95c.dir/build.make CMakeFiles/cmTC_7e95c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d56bf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d56bf.dir/build.make CMakeFiles/cmTC_d56bf.dir/build]
   ignore line: [make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7e95c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e95c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7e95c -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d56bf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d56bf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d56bf -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e95c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9P8iJ0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7e95c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d56bf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHy2YNZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d56bf /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9P8iJ0.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHy2YNZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7e95c] ==> ignore
+    arg [cmTC_d56bf] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_7e95c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d56bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5f906/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5f906.dir/build.make CMakeFiles/cmTC_5f906.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5c054/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c054.dir/build.make CMakeFiles/cmTC_5c054.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5f906.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_5f906.dir/feature_tests.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5f906
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f906.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_5f906.dir/feature_tests.cxx.o  -o cmTC_5f906 -rdynamic 
+Building CXX object CMakeFiles/cmTC_5c054.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_5c054.dir/feature_tests.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5c054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c054.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5c054.dir/feature_tests.cxx.o  -o cmTC_5c054 -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/bu
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4b24/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4b24.dir/build.make CMakeFiles/cmTC_c4b24.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2e66b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e66b.dir/build.make CMakeFiles/cmTC_2e66b.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c4b24.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_c4b24.dir/feature_tests.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c4b24
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4b24.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c4b24.dir/feature_tests.cxx.o  -o cmTC_c4b24 -rdynamic 
+Building CXX object CMakeFiles/cmTC_2e66b.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_2e66b.dir/feature_tests.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2e66b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e66b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2e66b.dir/feature_tests.cxx.o  -o cmTC_2e66b -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/bu
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53f88/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53f88.dir/build.make CMakeFiles/cmTC_53f88.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5c64a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c64a.dir/build.make CMakeFiles/cmTC_5c64a.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53f88.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_53f88.dir/feature_tests.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_53f88
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53f88.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_53f88.dir/feature_tests.cxx.o  -o cmTC_53f88 -rdynamic 
+Building CXX object CMakeFiles/cmTC_5c64a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_5c64a.dir/feature_tests.cxx.o -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5c64a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c64a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5c64a.dir/feature_tests.cxx.o  -o cmTC_5c64a -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/bu
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_431f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_431f6.dir/build.make CMakeFiles/cmTC_431f6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_15e21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15e21.dir/build.make CMakeFiles/cmTC_15e21.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_431f6.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_431f6.dir/CheckIncludeFile.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_431f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_431f6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_431f6.dir/CheckIncludeFile.c.o  -o cmTC_431f6 -rdynamic 
+Building C object CMakeFiles/cmTC_15e21.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_15e21.dir/CheckIncludeFile.c.o   -c /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_15e21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e21.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_15e21.dir/CheckIncludeFile.c.o  -o cmTC_15e21 -rdynamic 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7090/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7090.dir/build.make CMakeFiles/cmTC_f7090.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3bd17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bd17.dir/build.make CMakeFiles/cmTC_3bd17.dir/build
 make[1]: Entering directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f7090.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f7090.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f7090
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7090.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f7090.dir/CheckFunctionExists.c.o  -o cmTC_f7090 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_3bd17.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3bd17.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bd17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd17.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3bd17.dir/CheckFunctionExists.c.o  -o cmTC_3bd17 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_example/CMakeFiles/CMakeTmp'
 
 

@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel;/opt/ros/kinetic'.split(';')
+        CMAKE_PREFIX_PATH = '/home/viswa/rotors_quad/Trial_Repo/gazebo_link_attacher_ws/devel;/home/viswa/.local/share/Trash/files/link_attach/gazebo_link_attacher_ws/devel;/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel;/opt/ros/kinetic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

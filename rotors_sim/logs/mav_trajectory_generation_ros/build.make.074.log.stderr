@@ -1,0 +1,44 @@
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+       nh.advertise<trajectory_msgs::MultiDOFJointTrajectory>(
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:25:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+       nh.advertise<trajectory_msgs::MultiDOFJointTrajectory>(
+[01;32m[K                                                            ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:26:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmav_msgs::default_topics[m[K’ has not been declared
+           mav_msgs::default_topics::COMMAND_TRAJECTORY, 10);
+[01;32m[K                     ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:179:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KmsgMultiDofJointTrajectoryFromEigen(Eigen::Vector3d&, trajectory_msgs::MultiDOFJointTrajectory*)[m[K’
+   mav_msgs::msgMultiDofJointTrajectoryFromEigen(desired_position, &trajectory_msg); 
+[01;32m[K                                                                                  ^[m[K
+In file included from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:4:0[m[K:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:476:13:[m[K [01;36m[Knote: [m[Kcandidate: void mav_msgs::msgMultiDofJointTrajectoryFromEigen(const mav_msgs::EigenTrajectoryPoint&, const string&, trajectory_msgs::MultiDOFJointTrajectory*)
+ inline void msgMultiDofJointTrajectoryFromEigen(
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:476:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:489:13:[m[K [01;36m[Knote: [m[Kcandidate: void mav_msgs::msgMultiDofJointTrajectoryFromEigen(const mav_msgs::EigenTrajectoryPoint&, trajectory_msgs::MultiDOFJointTrajectory*)
+ inline void msgMultiDofJointTrajectoryFromEigen(
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:489:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’ to ‘[01m[Kconst mav_msgs::EigenTrajectoryPoint&[m[K’
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:508:13:[m[K [01;36m[Knote: [m[Kcandidate: void mav_msgs::msgMultiDofJointTrajectoryFromEigen(const EigenTrajectoryPointVector&, const string&, trajectory_msgs::MultiDOFJointTrajectory*)
+ inline void msgMultiDofJointTrajectoryFromEigen(
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:508:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:529:13:[m[K [01;36m[Knote: [m[Kcandidate: void mav_msgs::msgMultiDofJointTrajectoryFromEigen(const EigenTrajectoryPointVector&, trajectory_msgs::MultiDOFJointTrajectory*)
+ inline void msgMultiDofJointTrajectoryFromEigen(
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:529:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’ to ‘[01m[Kconst EigenTrajectoryPointVector& {aka const std::vector<mav_msgs::EigenTrajectoryPoint, Eigen::aligned_allocator<mav_msgs::EigenTrajectoryPoint> >&}[m[K’
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:535:13:[m[K [01;36m[Knote: [m[Kcandidate: void mav_msgs::msgMultiDofJointTrajectoryFromEigen(const EigenTrajectoryPointDeque&, const string&, trajectory_msgs::MultiDOFJointTrajectory*)
+ inline void msgMultiDofJointTrajectoryFromEigen(
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:535:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:556:13:[m[K [01;36m[Knote: [m[Kcandidate: void mav_msgs::msgMultiDofJointTrajectoryFromEigen(const EigenTrajectoryPointDeque&, trajectory_msgs::MultiDOFJointTrajectory*)
+ inline void msgMultiDofJointTrajectoryFromEigen(
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:556:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’ to ‘[01m[Kconst EigenTrajectoryPointDeque& {aka const std::deque<mav_msgs::EigenTrajectoryPoint, Eigen::aligned_allocator<mav_msgs::EigenTrajectoryPoint> >&}[m[K’
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:180:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraj_msg[m[K’ was not declared in this scope
+   traj_msg.header.stamp = ros::Time::now();
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/traj_gen.dir/src/traj_gen.cpp.o] Error 1
+make[1]: *** [CMakeFiles/traj_gen.dir/all] Error 2
+make: *** [all] Error 2

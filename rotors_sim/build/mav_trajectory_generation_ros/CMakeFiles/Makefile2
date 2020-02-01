@@ -60,38 +60,6 @@ CMAKE_SOURCE_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_tra
 CMAKE_BINARY_DIR = /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros
 
 #=============================================================================
-# Target rules for target CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir
-
-# All Build rule for target.
-CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/all:
-	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/depend
-	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num= "Built target clean_test_results_mav_trajectory_generation_ros"
-.PHONY : CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
-.PHONY : CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/rule
-
-# Convenience name for target.
-clean_test_results_mav_trajectory_generation_ros: CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/rule
-
-.PHONY : clean_test_results_mav_trajectory_generation_ros
-
-# clean rule for target.
-CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean:
-	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean
-.PHONY : CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/run_tests_mav_trajectory_generation_ros_gtest_test_feasibility.dir
 
 # All Build rule for target.
@@ -188,6 +156,120 @@ clean: CMakeFiles/run_tests_mav_trajectory_generation_ros.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir
+
+# All Build rule for target.
+CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/all:
+	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/depend
+	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num= "Built target clean_test_results_mav_trajectory_generation_ros"
+.PHONY : CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
+.PHONY : CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/rule
+
+# Convenience name for target.
+clean_test_results_mav_trajectory_generation_ros: CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/rule
+
+.PHONY : clean_test_results_mav_trajectory_generation_ros
+
+# clean rule for target.
+CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean:
+	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean
+.PHONY : CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/traj_gen.dir
+
+# All Build rule for target.
+CMakeFiles/traj_gen.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_trajectory_generation_ros.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all
+CMakeFiles/traj_gen.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/depend
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=30,31 "Built target traj_gen"
+.PHONY : CMakeFiles/traj_gen.dir/all
+
+# Include target in all.
+all: CMakeFiles/traj_gen.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/traj_gen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/traj_gen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
+.PHONY : CMakeFiles/traj_gen.dir/rule
+
+# Convenience name for target.
+traj_gen: CMakeFiles/traj_gen.dir/rule
+
+.PHONY : traj_gen
+
+# clean rule for target.
+CMakeFiles/traj_gen.dir/clean:
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/clean
+.PHONY : CMakeFiles/traj_gen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/traj_gen.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tg_node.dir
 
 # All Build rule for target.
@@ -239,7 +321,7 @@ CMakeFiles/tg_node.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_cpp.d
 CMakeFiles/tg_node.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/tg_node.dir/build.make CMakeFiles/tg_node.dir/depend
 	$(MAKE) -f CMakeFiles/tg_node.dir/build.make CMakeFiles/tg_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=24,25 "Built target tg_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=26,27 "Built target tg_node"
 .PHONY : CMakeFiles/tg_node.dir/all
 
 # Include target in all.
@@ -321,7 +403,7 @@ CMakeFiles/trajectory_sampler_node.dir/all: CMakeFiles/mav_planning_msgs_generat
 CMakeFiles/trajectory_sampler_node.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/trajectory_sampler_node.dir/build.make CMakeFiles/trajectory_sampler_node.dir/depend
 	$(MAKE) -f CMakeFiles/trajectory_sampler_node.dir/build.make CMakeFiles/trajectory_sampler_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=28,29 "Built target trajectory_sampler_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=32,33 "Built target trajectory_sampler_node"
 .PHONY : CMakeFiles/trajectory_sampler_node.dir/all
 
 # Include target in all.
@@ -546,6 +628,88 @@ clean: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/init_position.dir
+
+# All Build rule for target.
+CMakeFiles/init_position.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_trajectory_generation_ros.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all
+CMakeFiles/init_position.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/depend
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=12,13 "Built target init_position"
+.PHONY : CMakeFiles/init_position.dir/all
+
+# Include target in all.
+all: CMakeFiles/init_position.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/init_position.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/init_position.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
+.PHONY : CMakeFiles/init_position.dir/rule
+
+# Convenience name for target.
+init_position: CMakeFiles/init_position.dir/rule
+
+.PHONY : init_position
+
+# clean rule for target.
+CMakeFiles/init_position.dir/clean:
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/clean
+.PHONY : CMakeFiles/init_position.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/init_position.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -693,7 +857,7 @@ CMakeFiles/tg_new.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_cpp.di
 CMakeFiles/tg_new.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/tg_new.dir/build.make CMakeFiles/tg_new.dir/depend
 	$(MAKE) -f CMakeFiles/tg_new.dir/build.make CMakeFiles/tg_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=22,23 "Built target tg_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=24,25 "Built target tg_new"
 .PHONY : CMakeFiles/tg_new.dir/all
 
 # Include target in all.
@@ -1083,7 +1247,7 @@ CMakeFiles/test_feasibility.dir/all: CMakeFiles/mav_trajectory_generation_ros.di
 CMakeFiles/test_feasibility.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/test_feasibility.dir/build.make CMakeFiles/test_feasibility.dir/depend
 	$(MAKE) -f CMakeFiles/test_feasibility.dir/build.make CMakeFiles/test_feasibility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=20,21 "Built target test_feasibility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=22,23 "Built target test_feasibility"
 .PHONY : CMakeFiles/test_feasibility.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1240,8 +1404,10 @@ clean: CMakeFiles/download_extra_data.dir/clean
 # Target rules for target CMakeFiles/mav_trajectory_generation_ros_package.dir
 
 # All Build rule for target.
+CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/traj_gen.dir/all
 CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/tg_node.dir/all
 CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/trajectory_sampler_node.dir/all
+CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/init_position.dir/all
 CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/tg_new.dir/all
 CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/time_evaluation_node.dir/all
 CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/mav_trajectory_generation_ros.dir/all
@@ -1252,7 +1418,7 @@ CMakeFiles/mav_trajectory_generation_ros_package.dir/all: CMakeFiles/mav_traject
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_trajectory_generation_ros_package.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_trajectory_generation_ros_package.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles 0
 .PHONY : CMakeFiles/mav_trajectory_generation_ros_package.dir/rule
@@ -2124,7 +2290,7 @@ CMakeFiles/time_evaluation_node.dir/all: CMakeFiles/mav_planning_msgs_generate_m
 CMakeFiles/time_evaluation_node.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/time_evaluation_node.dir/build.make CMakeFiles/time_evaluation_node.dir/depend
 	$(MAKE) -f CMakeFiles/time_evaluation_node.dir/build.make CMakeFiles/time_evaluation_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=26,27 "Built target time_evaluation_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=28,29 "Built target time_evaluation_node"
 .PHONY : CMakeFiles/time_evaluation_node.dir/all
 
 # Include target in all.
@@ -2301,7 +2467,7 @@ CMakeFiles/mav_trajectory_generation_ros.dir/all: CMakeFiles/mav_planning_msgs_g
 CMakeFiles/mav_trajectory_generation_ros.dir/all: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/mav_trajectory_generation_ros.dir/build.make CMakeFiles/mav_trajectory_generation_ros.dir/depend
 	$(MAKE) -f CMakeFiles/mav_trajectory_generation_ros.dir/build.make CMakeFiles/mav_trajectory_generation_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Built target mav_trajectory_generation_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/mav_trajectory_generation_ros/CMakeFiles --progress-num=14,15,16,17,18,19,20,21 "Built target mav_trajectory_generation_ros"
 .PHONY : CMakeFiles/mav_trajectory_generation_ros.dir/all
 
 # Include target in all.

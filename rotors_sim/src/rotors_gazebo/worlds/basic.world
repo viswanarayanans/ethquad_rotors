@@ -8,9 +8,16 @@
       <uri>model://sun</uri>
     </include>
 
+    <gui>
+      <camera name="gzclient_camera">
+          <pose>8.624 -1.492 7.533 0 0.659 2.768</pose>
+      </camera>
+    </gui>
     <!-- Only one ROS interface plugin is required per world, as any other plugin can connect a Gazebo
          topic to a ROS topic (or vise versa). -->
     <plugin name="ros_interface_plugin" filename="librotors_gazebo_ros_interface_plugin.so"/>
+    <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so"/>
+    
 
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>

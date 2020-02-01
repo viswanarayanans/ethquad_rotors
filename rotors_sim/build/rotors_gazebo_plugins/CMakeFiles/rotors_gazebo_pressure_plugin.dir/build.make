@@ -178,7 +178,7 @@ rotors_gazebo_pressure_plugin_EXTERNAL_OBJECTS =
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-msgs0.so.0.7.0
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math3.so.3.3.0
-/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib/libglog.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libglog.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /opt/ros/kinetic/lib/libroslz4.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/liblz4.so
@@ -236,7 +236,7 @@ rotors_gazebo_pressure_plugin_EXTERNAL_OBJECTS =
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-transport3.so
-/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/lib/libglog.so
+/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libglog.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so: CMakeFiles/rotors_gazebo_pressure_plugin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so"

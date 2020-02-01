@@ -55,28 +55,28 @@ In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/goalpoint_transformer.cpp:21:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
      ROS_INFO("Published Pose %d %d %d", point_base_link.point.x, point_base_link.point.y, point_base_link.point.z);
 [01;32m[K     ^[m[K
-In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
-                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
-                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
-                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
                  from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/path_planning.cpp:17[m[K:
-/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = bool][m[K’:
-[01m[K/opt/ros/kinetic/include/ros/message_traits.h:255:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = bool][m[K’
-[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = bool][m[K’
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/path_planning.cpp:182:29:[m[K   required from here
-[01m[K/opt/ros/kinetic/include/ros/message_traits.h:126:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K__getMD5Sum[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kconst bool[m[K’
-     return m.__getMD5Sum().c_str();
-[01;32m[K                                  ^[m[K
-/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = bool][m[K’:
-[01m[K/opt/ros/kinetic/include/ros/message_traits.h:264:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = bool][m[K’
-[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = bool][m[K’
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/path_planning.cpp:182:29:[m[K   required from here
-[01m[K/opt/ros/kinetic/include/ros/message_traits.h:143:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K__getDataType[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kconst bool[m[K’
-     return m.__getDataType().c_str();
-[01;32m[K                                    ^[m[K
-make[2]: *** [CMakeFiles/path_planning_node.dir/src/path_planning.cpp.o] Error 1
-make[1]: *** [CMakeFiles/path_planning_node.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/path_planning.cpp:[m[K In member function ‘[01m[Kvoid planner::plan()[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<trajectory_msgs::MultiDOFJointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::MultiDOFJointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/path_planning.cpp:278:4:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+    ROS_INFO("Number of Waypoints published: %d", msg.points.size());
+[01;32m[K    ^[m[K
+/usr/bin/ld: warning: liboctomath.so.1.8, needed by /opt/ros/kinetic/lib/liboctomap.so, may conflict with liboctomath.so.1.6
 In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
                  from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/trajectory_generator.cpp:17[m[K:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/trajectory_generator.cpp:[m[K In function ‘[01m[Kvoid trajCb(Eigen::MatrixXf, Eigen::MatrixXf)[m[K’:
@@ -134,4 +134,3 @@ In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/path_planning/src/trajectory_generator.cpp:122:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
      ROS_INFO("Number of Elements in time: %d", time.size());
 [01;32m[K     ^[m[K
-make: *** [all] Error 2

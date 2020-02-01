@@ -1,0 +1,10 @@
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+       nh.advertise<trajectory_msgs::MultiDOFJointTrajectory>(
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:26:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+       nh.advertise<trajectory_msgs::MultiDOFJointTrajectory>(
+[01;32m[K                                                            ^[m[K
+make[2]: *** [CMakeFiles/traj_gen.dir/src/traj_gen.cpp.o] Error 1
+make[1]: *** [CMakeFiles/traj_gen.dir/all] Error 2
+make: *** [all] Error 2

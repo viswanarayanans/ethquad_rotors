@@ -1,0 +1,178 @@
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:156:45:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::Vertex::Vector vertices[m[K’
+   mav_trajectory_generation::Vertex::Vector vertices;
+[01;32m[K                                             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:32:47:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::Vertex::Vector vertices[m[K’ previously declared here
+ */  mav_trajectory_generation::Vertex::Vector vertices;
+[01;32m[K                                               ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:157:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int dimension[m[K’
+   const int dimension = 3;
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:33:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int dimension[m[K’ previously declared here
+   const int dimension = 3;
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:158:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int derivative_to_optimize[m[K’
+   const int derivative_to_optimize = mav_trajectory_generation::derivative_order::SNAP;
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:34:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int derivative_to_optimize[m[K’ previously declared here
+   const int derivative_to_optimize = mav_trajectory_generation::derivative_order::SNAP;
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:159:52:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::Vertex start[m[K’
+   mav_trajectory_generation::Vertex start(dimension), middle(dimension), end(dimension);
+[01;32m[K                                                    ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:35:37:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::Vertex start[m[K’ previously declared here
+   mav_trajectory_generation::Vertex start(dimension), middle(dimension), end(dimension);
+[01;32m[K                                     ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:159:71:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::Vertex middle[m[K’
+   mav_trajectory_generation::Vertex start(dimension), middle(dimension), end(dimension);
+[01;32m[K                                                                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:35:55:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::Vertex middle[m[K’ previously declared here
+   mav_trajectory_generation::Vertex start(dimension), middle(dimension), end(dimension);
+[01;32m[K                                                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:159:87:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::Vertex end[m[K’
+   mav_trajectory_generation::Vertex start(dimension), middle(dimension), end(dimension);
+[01;32m[K                                                                                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:35:74:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::Vertex end[m[K’ previously declared here
+   mav_trajectory_generation::Vertex start(dimension), middle(dimension), end(dimension);
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:189:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double> segment_times[m[K’
+   std::vector<double> segment_times;
+[01;32m[K                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:65:23:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double> segment_times[m[K’ previously declared here
+   std::vector<double> segment_times;
+[01;32m[K                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:190:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double v_max[m[K’
+   const double v_max = 2;
+[01;32m[K                ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:66:16:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double v_max[m[K’ previously declared here
+   const double v_max = 2;
+[01;32m[K                ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:191:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double a_max[m[K’
+   const double a_max = 2;
+[01;32m[K                ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:67:16:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double a_max[m[K’ previously declared here
+   const double a_max = 2;
+[01;32m[K                ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:194:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int N[m[K’
+   const int N = 10;
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:70:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int N[m[K’ previously declared here
+   const int N = 10;
+[01;32m[K             ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:195:69:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::PolynomialOptimization<10> opt[m[K’
+   mav_trajectory_generation::PolynomialOptimization<N> opt(dimension);
+[01;32m[K                                                                     ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:71:56:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::PolynomialOptimization<10> opt[m[K’ previously declared here
+   mav_trajectory_generation::PolynomialOptimization<N> opt(dimension);
+[01;32m[K                                                        ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:199:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::Segment::Vector segments[m[K’
+   mav_trajectory_generation::Segment::Vector segments;
+[01;32m[K                                              ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:75:46:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::Segment::Vector segments[m[K’ previously declared here
+   mav_trajectory_generation::Segment::Vector segments;
+[01;32m[K                                              ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:202:41:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_trajectory_generation::Trajectory trajectory[m[K’
+   mav_trajectory_generation::Trajectory trajectory;
+[01;32m[K                                         ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:78:41:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_trajectory_generation::Trajectory trajectory[m[K’ previously declared here
+   mav_trajectory_generation::Trajectory trajectory;
+[01;32m[K                                         ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:214:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble sampling_time[m[K’
+   double sampling_time = 2.0;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:90:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble sampling_time[m[K’ previously declared here
+   double sampling_time = 2.0;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:215:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint derivative_order[m[K’
+   int derivative_order = mav_trajectory_generation::derivative_order::POSITION;
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:91:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint derivative_order[m[K’ previously declared here
+   int derivative_order = mav_trajectory_generation::derivative_order::POSITION;
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:216:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::VectorXd sample[m[K’
+   Eigen::VectorXd sample = trajectory.evaluate(sampling_time, derivative_order);
+[01;32m[K                   ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:92:19:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::VectorXd sample[m[K’ previously declared here
+   Eigen::VectorXd sample = trajectory.evaluate(sampling_time, derivative_order);
+[01;32m[K                   ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:219:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble t_start[m[K’
+   double t_start = 2.0;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:95:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble t_start[m[K’ previously declared here
+   double t_start = 2.0;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:220:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble t_end[m[K’
+   double t_end = 10.0;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:96:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble t_end[m[K’ previously declared here
+   double t_end = 10.0;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:221:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble dt[m[K’
+   double dt = 0.01;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:97:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble dt[m[K’ previously declared here
+   double dt = 0.01;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:222:32:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<Eigen::Matrix<double, -1, 1> > result[m[K’
+   std::vector<Eigen::VectorXd> result;
+[01;32m[K                                ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:98:32:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<Eigen::Matrix<double, -1, 1> > result[m[K’ previously declared here
+   std::vector<Eigen::VectorXd> result;
+[01;32m[K                                ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:223:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double> sampling_times[m[K’
+   std::vector<double> sampling_times; // Optional.
+[01;32m[K                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:99:23:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double> sampling_times[m[K’ previously declared here
+   std::vector<double> sampling_times; // Optional.
+[01;32m[K                       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:227:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_msgs::EigenTrajectoryPoint state[m[K’
+   mav_msgs::EigenTrajectoryPoint state;
+[01;32m[K                                  ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:103:34:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_msgs::EigenTrajectoryPoint state[m[K’ previously declared here
+   mav_msgs::EigenTrajectoryPoint state;
+[01;32m[K                                  ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:228:42:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmav_msgs::EigenTrajectoryPoint::Vector states[m[K’
+   mav_msgs::EigenTrajectoryPoint::Vector states;
+[01;32m[K                                          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:104:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmav_msgs::EigenTrajectoryPoint::Vector states[m[K’ previously declared here
+   mav_msgs::EigenTrajectoryPoint::Vector states;
+[01;32m[K                                          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:231:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble sampling_interval[m[K’
+   double sampling_interval = 0.01;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:107:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble sampling_interval[m[K’ previously declared here
+   double sampling_interval = 0.01;
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:232:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool success[m[K’
+   bool success = mav_trajectory_generation::sampleWholeTrajectory(trajectory, sampling_interval, &states);
+[01;32m[K        ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:108:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool success[m[K’ previously declared here
+   bool success = mav_trajectory_generation::sampleWholeTrajectory(trajectory, sampling_interval, &states);
+[01;32m[K        ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:235:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint traj_size[m[K’
+   int traj_size = states.size();        
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:111:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint traj_size[m[K’ previously declared here
+   int traj_size = states.size();        
+[01;32m[K       ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:252:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kvisualization_msgs::MarkerArray markers[m[K’
+   visualization_msgs::MarkerArray markers;
+[01;32m[K                                   ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:128:35:[m[K [01;36m[Knote: [m[K‘[01m[Kvisualization_msgs::MarkerArray markers[m[K’ previously declared here
+   visualization_msgs::MarkerArray markers;
+[01;32m[K                                   ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:253:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble distance[m[K’
+   double distance = 1.0; // Distance by which to seperate additional markers. Set 0.0 to disable.
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:129:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble distance[m[K’ previously declared here
+   double distance = 1.0; // Distance by which to seperate additional markers. Set 0.0 to disable.
+[01;32m[K          ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:254:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::__cxx11::string frame_id[m[K’
+   std::string frame_id = "world";
+[01;32m[K               ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/traj_gen.cpp:130:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::string frame_id[m[K’ previously declared here
+   std::string frame_id = "world";
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/traj_gen.dir/src/traj_gen.cpp.o] Error 1
+make[1]: *** [CMakeFiles/traj_gen.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/init_position.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/init_position.cpp:55:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint i[m[K’
+ int i = 0;
+[01;32m[K     ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/src/init_position.cpp:38:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kunsigned int i[m[K’
+ unsigned int i = 0;
+[01;32m[K              ^[m[K
+make[2]: *** [CMakeFiles/init_position.dir/src/init_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/init_position.dir/all] Error 2
+make: *** [all] Error 2

@@ -13,7 +13,6 @@
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/std_msgs_generate_messages_eus.dir
-/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/pcl_pcl2.dir
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/roscpp_generate_messages_lisp.dir
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/clean_test_results.dir
 /home/viswa/rotors_quad/ethquad_rotors/rotors_sim/build/rotors_control/CMakeFiles/mav_msgs_generate_messages_nodejs.dir

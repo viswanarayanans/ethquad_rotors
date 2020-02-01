@@ -7,7 +7,12 @@
     <include>
       <uri>model://occupancy_grid</uri>
       <pose>5 0 0 0.0 0.0 0.0</pose>
-    </include>
+    </include>    
+    <gui>
+      <camera name="gzclient_camera">
+          <pose>11.687 11.659 15.106 0 0.752 -1.928</pose>
+      </camera>
+    </gui>
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
       <latitude_deg>47.3667</latitude_deg>
@@ -19,6 +24,8 @@
     <!-- Only one ROS interface plugin is required per world, as any other plugin can connect a Gazebo
          topic to a ROS topic (or vise versa). -->
     <plugin name="ros_interface_plugin" filename="librotors_gazebo_ros_interface_plugin.so"/>
+    <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so"/>
+    
 
     <physics type='ode'>
       <ode>

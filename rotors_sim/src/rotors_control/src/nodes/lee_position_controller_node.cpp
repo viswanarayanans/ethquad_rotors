@@ -51,7 +51,7 @@ LeePositionControllerNode::LeePositionControllerNode(
 
   command_timer_ = nh_.createTimer(ros::Duration(0), &LeePositionControllerNode::TimedCommandCallback, this,
                                   true, false);
-  sub = nh_.subscribe("/scan", 1000, &LeePositionControllerNode::callback, this);
+  // sub = nh_.subscribe("/scan", 1000, &LeePositionControllerNode::callback, this);
 }
 
 LeePositionControllerNode::~LeePositionControllerNode() { }
@@ -104,14 +104,16 @@ void LeePositionControllerNode::InitializeParams() {
   GetRosParameter(private_nh_, "angular_rate_gain/z",
                   lee_position_controller_.controller_parameters_.angular_rate_gain_.z(),
                   &lee_position_controller_.controller_parameters_.angular_rate_gain_.z());
+  ROS_INFO_STREAM("Rotor size:" << lee_position_controller_.vehicle_parameters_.rotor_configuration_.rotors.size());
   GetVehicleParameters(private_nh_, &lee_position_controller_.vehicle_parameters_);
+  ROS_INFO_STREAM("Rotor size:" << lee_position_controller_.vehicle_parameters_.rotor_configuration_.rotors.size());
+
   lee_position_controller_.InitializeParameters();
 }
 void LeePositionControllerNode::Publish() {
 }
 
-void LeePositionControllerNode::CommandPoseCallback(
-    const geometry_msgs::PoseStampedConstPtr& pose_msg) {
+void LeePositionControllerNode::CommandPoseCallback(const geometry_msgs::PoseStampedConstPtr& pose_msg) {
   // Clear all pending commands.
   command_timer_.stop();
   commands_.clear();
@@ -127,6 +129,7 @@ void LeePositionControllerNode::CommandPoseCallback(
 
 void LeePositionControllerNode::MultiDofJointTrajectoryCallback(
     const trajectory_msgs::MultiDOFJointTrajectoryConstPtr& msg) {
+
   // Clear all pending commands.
   command_timer_.stop();
   commands_.clear();
@@ -203,20 +206,20 @@ void LeePositionControllerNode::OdometryCallback(const nav_msgs::OdometryConstPt
 
   motor_velocity_reference_pub_.publish(actuator_msg);
 }
-void LeePositionControllerNode::callback(const sensor_msgs::LaserScan::ConstPtr& input)
-{
-  //ROS_INFO("Laser Scan Message recieved");
-  if( !input->ranges.empty())
-  {
-    //ROS_INFO("%f", input->ranges[0]);
-  }
+// void LeePositionControllerNode::callback(const sensor_msgs::LaserScan::ConstPtr& input)
+// {
+//   //ROS_INFO("Laser Scan Message recieved");
+//   if( !input->ranges.empty())
+//   {
+//     //ROS_INFO("%f", input->ranges[0]);
+//   }
+// }
 }
-}
-/*void UpdaterCallback(const std_msgs::String::ConstPtr& update) //Added by Viswa
-{
-  ROS_INFO("Parameter Update received.");
-  lee_position_controller_.UpdateMassAndInertia();
-}*/
+// /*void UpdaterCallback(const std_msgs::String::ConstPtr& update) //Added by Viswa
+// {
+//   ROS_INFO("Parameter Update received.");
+//   lee_position_controller_.UpdateMassAndInertia();
+// }*/
 
 
 

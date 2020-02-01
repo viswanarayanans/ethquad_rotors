@@ -215,6 +215,46 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros" TYPE EXECUTABLE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation_ros/lib/mav_trajectory_generation_ros/traj_gen")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen"
+         OLD_RPATH "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/glog_catkin/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/nlopt/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/lib:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/eigen_checks/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation_ros/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/traj_gen")
+    endif()
+  endif()
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros" TYPE EXECUTABLE FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation_ros/lib/mav_trajectory_generation_ros/init_position")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position"
+         OLD_RPATH "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/glog_catkin/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/nlopt/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_visualization/lib:/opt/ros/kinetic/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/eigen_checks/lib:/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/mav_trajectory_generation_ros/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mav_trajectory_generation_ros/init_position")
+    endif()
+  endif()
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/mav_trajectory_generation/mav_trajectory_generation_ros/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

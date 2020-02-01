@@ -2066,6 +2066,67 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/math/Pose.hh:24:0[m
 [01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
        public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
 [01;32m[K                        ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboLidarPlugin::~GazeboLidarPlugin()[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:60:36:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::physics::MultiRayShape::DisconnectNewLaserScans(gazebo::event::ConnectionPtr&)[m[K’ is deprecated [-Wdeprecated-declarations]
+       this->newLaserScansConnection);
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:34:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/physics/MultiRayShape.hh:176:20:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: void DisconnectNewLaserScans(event::ConnectionPtr &_conn)
+[01;32m[K                    ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboPressurePlugin::~GazeboPressurePlugin()[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:32:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
+   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:25[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: static void DisconnectWorldUpdateBegin(
+[01;32m[K                           ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:32:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
+   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:25[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: static void DisconnectWorldUpdateBegin(
+[01;32m[K                           ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboPressurePlugin::OnUpdate(const gazebo::common::UpdateInfo&)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:107:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::physics::World::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   common::Time current_time = world_->GetSimTime();
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Population.hh:28:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:41[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:27[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/physics/World.hh:263:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(8.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:110:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual const gazebo::math::Pose gazebo::physics::Entity::GetWorldPose() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   double height_geometric_m = ref_alt_ + model_->GetWorldPose().pos.z;
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Model.hh:30:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/physics/Actor.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:27[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/physics/Entity.hh:123:47:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: inline virtual const math::Pose GetWorldPose() const
+[01;32m[K                                               ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:110:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Pose::~Pose()[m[K’ is deprecated [-Wdeprecated-declarations]
+   double height_geometric_m = ref_alt_ + model_->GetWorldPose().pos.z;
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/math/gzmath.hh:11:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:26[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Pose.hh:76:23:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual ~Pose() GAZEBO_DEPRECATED(8.0);
+[01;32m[K                       ^[m[K
 In file included from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22:0[m[K:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:57:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3::Vector3(const double&, const double&, const double&)[m[K’ is deprecated [-Wdeprecated-declarations]
  static const math::Vector3 kDefaultWindDirection = math::Vector3(1, 0, 0);
@@ -3017,58 +3078,6 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0
 [01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
        public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
 [01;32m[K                       ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboPressurePlugin::~GazeboPressurePlugin()[m[K’:
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:32:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
-   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
-[01;32m[K                  ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:25[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: static void DisconnectWorldUpdateBegin(
-[01;32m[K                           ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:32:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
-   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
-[01;32m[K                                                              ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:25[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: static void DisconnectWorldUpdateBegin(
-[01;32m[K                           ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboPressurePlugin::OnUpdate(const gazebo::common::UpdateInfo&)[m[K’:
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:107:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::physics::World::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
-   common::Time current_time = world_->GetSimTime();
-[01;32m[K                                                  ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Population.hh:28:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:41[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:27[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/physics/World.hh:263:28:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(8.0);
-[01;32m[K                            ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:110:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual const gazebo::math::Pose gazebo::physics::Entity::GetWorldPose() const[m[K’ is deprecated [-Wdeprecated-declarations]
-   double height_geometric_m = ref_alt_ + model_->GetWorldPose().pos.z;
-[01;32m[K                                                               ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Model.hh:30:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/physics/Actor.hh:24[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:2[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:27[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/physics/Entity.hh:123:47:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: inline virtual const math::Pose GetWorldPose() const
-[01;32m[K                                               ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:110:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Pose::~Pose()[m[K’ is deprecated [-Wdeprecated-declarations]
-   double height_geometric_m = ref_alt_ + model_->GetWorldPose().pos.z;
-[01;32m[K                                                               ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/math/gzmath.hh:11:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/gazebo_core.hh:20[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/gazebo.hh:20[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_pressure_plugin.h:26[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_pressure_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Pose.hh:76:23:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: virtual ~Pose() GAZEBO_DEPRECATED(8.0);
-[01;32m[K                       ^[m[K
 In file included from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4:0[m[K,
                  from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
                  from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
@@ -3259,121 +3268,25 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0
 [01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
        public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
 [01;32m[K                        ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-/usr/include/sdformat-5.3/sdf/Param.hh: In instantiation of ‘[01m[Kbool sdf::Param::Get(T&) const [with T = gazebo::math::Vector3][m[K’:
-[01m[K/usr/include/sdformat-5.3/sdf/Element.hh:357:7:[m[K   required from ‘[01m[KT sdf::Element::Get(const string&) [with T = gazebo::math::Vector3; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:63:69:[m[K   required from here
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:265:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
-           _value = boost::lexical_cast<T>("1");
-[01;32m[K                                          ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
-[01;32m[K                       ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:265:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
-           _value = boost::lexical_cast<T>("1");
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboRosInterfacePlugin::~GazeboRosInterfacePlugin()[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:36:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
+   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
 [01;32m[K                  ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
-[01;32m[K                        ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:267:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
-           _value = boost::lexical_cast<T>("0");
-[01;32m[K                                          ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
-[01;32m[K                       ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:267:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
-           _value = boost::lexical_cast<T>("0");
-[01;32m[K                  ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
-[01;32m[K                        ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:274:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
-          _value = boost::relaxed_get<T>(this->dataPtr->value);
-[01;32m[K                 ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
-[01;32m[K                        ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:279:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
-         _value = boost::lexical_cast<T>(this->dataPtr->value);
-[01;32m[K                                        ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
-[01;32m[K                       ^[m[K
-In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
-                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:279:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
-         _value = boost::lexical_cast<T>(this->dataPtr->value);
-[01;32m[K                ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
-[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_ros_interface_plugin.h:25[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: static void DisconnectWorldUpdateBegin(
+[01;32m[K                           ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:36:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
+   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_ros_interface_plugin.h:25[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: static void DisconnectWorldUpdateBegin(
+[01;32m[K                           ^[m[K
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_odometry_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboOdometryPlugin::~GazeboOdometryPlugin()[m[K’:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_odometry_plugin.cpp:46:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
    event::Events::DisconnectWorldUpdateBegin(updateConnection_);
@@ -4111,6 +4024,121 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Population.hh
 [01m[K/usr/include/gazebo-8/gazebo/physics/World.hh:263:28:[m[K [01;36m[Knote: [m[Kdeclared here
        public: common::Time GetSimTime() const GAZEBO_DEPRECATED(8.0);
 [01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+/usr/include/sdformat-5.3/sdf/Param.hh: In instantiation of ‘[01m[Kbool sdf::Param::Get(T&) const [with T = gazebo::math::Vector3][m[K’:
+[01m[K/usr/include/sdformat-5.3/sdf/Element.hh:357:7:[m[K   required from ‘[01m[KT sdf::Element::Get(const string&) [with T = gazebo::math::Vector3; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:63:69:[m[K   required from here
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:265:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
+           _value = boost::lexical_cast<T>("1");
+[01;32m[K                                          ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
+[01;32m[K                       ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:265:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
+           _value = boost::lexical_cast<T>("1");
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:267:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
+           _value = boost::lexical_cast<T>("0");
+[01;32m[K                                          ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
+[01;32m[K                       ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:267:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
+           _value = boost::lexical_cast<T>("0");
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:274:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
+          _value = boost::relaxed_get<T>(this->dataPtr->value);
+[01;32m[K                 ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:279:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
+         _value = boost::lexical_cast<T>(this->dataPtr->value);
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
+[01;32m[K                       ^[m[K
+In file included from [01m[K/usr/include/sdformat-5.3/sdf/Element.hh:25:0[m[K,
+                 from [01m[K/usr/include/sdformat-5.3/sdf/sdf.hh:4[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/Battery.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/sdformat-5.3/sdf/Param.hh:279:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3& gazebo::math::Vector3::operator=(const gazebo::math::Vector3&)[m[K’ is deprecated [-Wdeprecated-declarations]
+         _value = boost::lexical_cast<T>(this->dataPtr->value);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:14[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:195:24:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: Vector3 &operator =(const Vector3 &_v) GAZEBO_DEPRECATED(8.0);
+[01;32m[K                        ^[m[K
 In file included from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22:0[m[K:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:57:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::math::Vector3::~Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
@@ -4134,34 +4162,6 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0
 [01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:81:23:[m[K [01;36m[Knote: [m[Kdeclared here
        public: virtual ~Vector3() GAZEBO_DEPRECATED(8.0);
 [01;32m[K                       ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboRosInterfacePlugin::~GazeboRosInterfacePlugin()[m[K’:
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:36:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
-   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
-[01;32m[K                  ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_ros_interface_plugin.h:25[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: static void DisconnectWorldUpdateBegin(
-[01;32m[K                           ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:36:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
-   event::Events::DisconnectWorldUpdateBegin(updateConnection_);
-[01;32m[K                                                              ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_ros_interface_plugin.h:25[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp:18[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: static void DisconnectWorldUpdateBegin(
-[01;32m[K                           ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboLidarPlugin::~GazeboLidarPlugin()[m[K’:
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:60:36:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::physics::MultiRayShape::DisconnectNewLaserScans(gazebo::event::ConnectionPtr&)[m[K’ is deprecated [-Wdeprecated-declarations]
-       this->newLaserScansConnection);
-[01;32m[K                                    ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:34:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:22[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/physics/MultiRayShape.hh:176:20:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: void DisconnectNewLaserScans(event::ConnectionPtr &_conn)
-[01;32m[K                    ^[m[K
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboGpsPlugin::~GazeboGpsPlugin()[m[K’:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:36:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::sensors::Sensor::DisconnectUpdated(gazebo::event::ConnectionPtr&)[m[K’ is deprecated [-Wdeprecated-declarations]
    this->parent_sensor_->DisconnectUpdated(this->updateConnection_);
@@ -4558,46 +4558,6 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/common/Color.hh:24:0
 [01m[K/usr/include/gazebo-8/gazebo/math/Vector3.hh:102:22:[m[K [01;36m[Knote: [m[Kdeclared here
        public: double GetLength() const GAZEBO_DEPRECATED(8.0);
 [01;32m[K                      ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboMultirotorBasePlugin::~GazeboMultirotorBasePlugin()[m[K’:
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:34:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
-   event::Events::DisconnectWorldUpdateBegin(update_connection_);
-[01;32m[K                  ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: static void DisconnectWorldUpdateBegin(
-[01;32m[K                           ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:34:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
-   event::Events::DisconnectWorldUpdateBegin(update_connection_);
-[01;32m[K                                                               ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:28[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: static void DisconnectWorldUpdateBegin(
-[01;32m[K                           ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboMultirotorBasePlugin::OnUpdate(const gazebo::common::UpdateInfo&)[m[K’:
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:102:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::physics::World::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
-   common::Time now = world_->GetSimTime();
-[01;32m[K                                         ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Population.hh:28:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:41[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:31[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/physics/World.hh:263:28:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(8.0);
-[01;32m[K                            ^[m[K
-[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:125:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Angle gazebo::physics::Joint::GetAngle(unsigned int) const[m[K’ is deprecated [-Wdeprecated-declarations]
-     joint_state_msg_.add_position(m->second->GetAngle(0).Radian());
-[01;32m[K                                                        ^[m[K
-In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/BallJoint.hh:25:0[m[K,
-                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:6[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:31[m[K,
-                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
-[01m[K/usr/include/gazebo-8/gazebo/physics/Joint.hh:417:27:[m[K [01;36m[Knote: [m[Kdeclared here
-       public: math::Angle GetAngle(unsigned int _index) const
-[01;32m[K                           ^[m[K
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_fw_dynamics_plugin.cpp:276:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3::Vector3(const double&, const double&, const double&)[m[K’ is deprecated [-Wdeprecated-declarations]
        math::Vector3(forces_B[0], -forces_B[1], -forces_B[2]);
 [01;32m[K                                                            ^[m[K
@@ -4696,6 +4656,46 @@ In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:28
 [01m[K/usr/include/gazebo-8/gazebo/physics/Link.hh:264:28:[m[K [01;36m[Knote: [m[Kdeclared here
        public: virtual void AddRelativeTorque(const math::Vector3 &_torque)
 [01;32m[K                            ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::GazeboMultirotorBasePlugin::~GazeboMultirotorBasePlugin()[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:34:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
+   event::Events::DisconnectWorldUpdateBegin(update_connection_);
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: static void DisconnectWorldUpdateBegin(
+[01;32m[K                           ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:34:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic void gazebo::event::Events::DisconnectWorldUpdateBegin(gazebo::event::ConnectionPtr)[m[K’ is deprecated [-Wdeprecated-declarations]
+   event::Events::DisconnectWorldUpdateBegin(update_connection_);
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/common/common.hh:19:0[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:28[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/common/Events.hh:160:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: static void DisconnectWorldUpdateBegin(
+[01;32m[K                           ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboMultirotorBasePlugin::OnUpdate(const gazebo::common::UpdateInfo&)[m[K’:
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:102:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::physics::World::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   common::Time now = world_->GetSimTime();
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/Population.hh:28:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:41[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:31[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/physics/World.hh:263:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(8.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:125:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Angle gazebo::physics::Joint::GetAngle(unsigned int) const[m[K’ is deprecated [-Wdeprecated-declarations]
+     joint_state_msg_.add_position(m->second->GetAngle(0).Radian());
+[01;32m[K                                                        ^[m[K
+In file included from [01m[K/usr/include/gazebo-8/gazebo/physics/BallJoint.hh:25:0[m[K,
+                 from [01m[K/usr/include/gazebo-8/gazebo/physics/physics.hh:6[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h:31[m[K,
+                 from [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-8/gazebo/physics/Joint.hh:417:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: math::Angle GetAngle(unsigned int _index) const
+[01;32m[K                           ^[m[K
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_magnetometer_plugin.cpp:[m[K In constructor ‘[01m[Kgazebo::GazeboMagnetometerPlugin::GazeboMagnetometerPlugin()[m[K’:
 [01m[K/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/rotors_gazebo_plugins/src/gazebo_magnetometer_plugin.cpp:29:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::math::Vector3::Vector3()[m[K’ is deprecated [-Wdeprecated-declarations]
        pubs_and_subs_created_(false) {

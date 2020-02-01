@@ -1,0 +1,8 @@
+prefix=/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/serial_comm
+
+Name: serial_comm
+Description: Description of serial_comm
+Version: 2.1.1
+Cflags: -I/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/src/serial_comm/include -I/usr/include/eigen3
+Libs: -L/home/viswa/rotors_quad/ethquad_rotors/rotors_sim/devel/.private/serial_comm/lib 
+Requires: geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs

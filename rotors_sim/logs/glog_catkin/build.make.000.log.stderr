@@ -1,13 +1,17 @@
-configure.ac:19: installing './compile'
-configure.ac:13: installing './missing'
-Makefile.am: installing './depcomp'
-parallel-tests: installing './test-driver'
-make[3]: warning: -jN forced in submake: disabling jobserver mode.
-In file included from [01m[K/usr/include/c++/5/ext/hash_set:60:0[m[K,
-                 from [01m[Ksrc/glog/stl_logging.h:73[m[K,
-                 from [01m[Ksrc/stl_logging_unittest.cc:62[m[K:
-[01m[K/usr/include/c++/5/backward/backward_warning.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
- #warning \
-[01;32m[K  ^[m[K
-ar: `u' modifier ignored since `D' is the default (see `U')
-make[3]: warning: -jN forced in submake: disabling jobserver mode.
+CMake Error at glog_src-stamp/download-glog_src.cmake:21 (message):
+  error: downloading 'https://github.com/google/glog/archive/v0.3.5.zip'
+  failed
+
+    status_code: 5
+    status_string: "Couldn't resolve proxy name"
+    log: Could not resolve proxy: proxy.iiit.ac.in
+
+  Closing connection 0
+
+  
+
+
+
+make[2]: *** [glog_src-prefix/src/glog_src-stamp/glog_src-download] Error 1
+make[1]: *** [CMakeFiles/glog_src.dir/all] Error 2
+make: *** [all] Error 2

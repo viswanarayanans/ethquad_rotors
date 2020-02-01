@@ -166,19 +166,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named clean_test_results_mav_trajectory_generation_ros
-
-# Build rule for target.
-clean_test_results_mav_trajectory_generation_ros: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_mav_trajectory_generation_ros
-.PHONY : clean_test_results_mav_trajectory_generation_ros
-
-# fast build rule for target.
-clean_test_results_mav_trajectory_generation_ros/fast:
-	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build
-.PHONY : clean_test_results_mav_trajectory_generation_ros/fast
-
-#=============================================================================
 # Target rules for targets named run_tests_mav_trajectory_generation_ros_gtest_test_feasibility
 
 # Build rule for target.
@@ -216,6 +203,32 @@ run_tests_mav_trajectory_generation_ros: cmake_check_build_system
 run_tests_mav_trajectory_generation_ros/fast:
 	$(MAKE) -f CMakeFiles/run_tests_mav_trajectory_generation_ros.dir/build.make CMakeFiles/run_tests_mav_trajectory_generation_ros.dir/build
 .PHONY : run_tests_mav_trajectory_generation_ros/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_mav_trajectory_generation_ros
+
+# Build rule for target.
+clean_test_results_mav_trajectory_generation_ros: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_mav_trajectory_generation_ros
+.PHONY : clean_test_results_mav_trajectory_generation_ros
+
+# fast build rule for target.
+clean_test_results_mav_trajectory_generation_ros/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build.make CMakeFiles/clean_test_results_mav_trajectory_generation_ros.dir/build
+.PHONY : clean_test_results_mav_trajectory_generation_ros/fast
+
+#=============================================================================
+# Target rules for targets named traj_gen
+
+# Build rule for target.
+traj_gen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 traj_gen
+.PHONY : traj_gen
+
+# fast build rule for target.
+traj_gen/fast:
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/build
+.PHONY : traj_gen/fast
 
 #=============================================================================
 # Target rules for targets named tg_node
@@ -320,6 +333,19 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 geometry_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named init_position
+
+# Build rule for target.
+init_position: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 init_position
+.PHONY : init_position
+
+# fast build rule for target.
+init_position/fast:
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/build
+.PHONY : init_position/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -1170,6 +1196,33 @@ src/feasibility_sampling.cpp.s:
 	$(MAKE) -f CMakeFiles/mav_trajectory_generation_ros.dir/build.make CMakeFiles/mav_trajectory_generation_ros.dir/src/feasibility_sampling.cpp.s
 .PHONY : src/feasibility_sampling.cpp.s
 
+src/init_position.o: src/init_position.cpp.o
+
+.PHONY : src/init_position.o
+
+# target to build an object file
+src/init_position.cpp.o:
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/src/init_position.cpp.o
+.PHONY : src/init_position.cpp.o
+
+src/init_position.i: src/init_position.cpp.i
+
+.PHONY : src/init_position.i
+
+# target to preprocess a source file
+src/init_position.cpp.i:
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/src/init_position.cpp.i
+.PHONY : src/init_position.cpp.i
+
+src/init_position.s: src/init_position.cpp.s
+
+.PHONY : src/init_position.s
+
+# target to generate assembly for a file
+src/init_position.cpp.s:
+	$(MAKE) -f CMakeFiles/init_position.dir/build.make CMakeFiles/init_position.dir/src/init_position.cpp.s
+.PHONY : src/init_position.cpp.s
+
 src/input_constraints.o: src/input_constraints.cpp.o
 
 .PHONY : src/input_constraints.o
@@ -1332,6 +1385,33 @@ src/time_evaluation_node.cpp.s:
 	$(MAKE) -f CMakeFiles/time_evaluation_node.dir/build.make CMakeFiles/time_evaluation_node.dir/src/time_evaluation_node.cpp.s
 .PHONY : src/time_evaluation_node.cpp.s
 
+src/traj_gen.o: src/traj_gen.cpp.o
+
+.PHONY : src/traj_gen.o
+
+# target to build an object file
+src/traj_gen.cpp.o:
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/src/traj_gen.cpp.o
+.PHONY : src/traj_gen.cpp.o
+
+src/traj_gen.i: src/traj_gen.cpp.i
+
+.PHONY : src/traj_gen.i
+
+# target to preprocess a source file
+src/traj_gen.cpp.i:
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/src/traj_gen.cpp.i
+.PHONY : src/traj_gen.cpp.i
+
+src/traj_gen.s: src/traj_gen.cpp.s
+
+.PHONY : src/traj_gen.s
+
+# target to generate assembly for a file
+src/traj_gen.cpp.s:
+	$(MAKE) -f CMakeFiles/traj_gen.dir/build.make CMakeFiles/traj_gen.dir/src/traj_gen.cpp.s
+.PHONY : src/traj_gen.cpp.s
+
 src/trajectory_sampler_node.o: src/trajectory_sampler_node.cpp.o
 
 .PHONY : src/trajectory_sampler_node.o
@@ -1395,10 +1475,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... install/strip"
-	@echo "... clean_test_results_mav_trajectory_generation_ros"
 	@echo "... run_tests_mav_trajectory_generation_ros_gtest_test_feasibility"
 	@echo "... _run_tests_mav_trajectory_generation_ros"
 	@echo "... run_tests_mav_trajectory_generation_ros"
+	@echo "... clean_test_results_mav_trajectory_generation_ros"
+	@echo "... traj_gen"
 	@echo "... tg_node"
 	@echo "... trajectory_sampler_node"
 	@echo "... sensor_msgs_generate_messages_py"
@@ -1408,6 +1489,7 @@ help:
 	@echo "... clean_test_results"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... install"
+	@echo "... init_position"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_lisp"
@@ -1480,6 +1562,9 @@ help:
 	@echo "... src/feasibility_sampling.o"
 	@echo "... src/feasibility_sampling.i"
 	@echo "... src/feasibility_sampling.s"
+	@echo "... src/init_position.o"
+	@echo "... src/init_position.i"
+	@echo "... src/init_position.s"
 	@echo "... src/input_constraints.o"
 	@echo "... src/input_constraints.i"
 	@echo "... src/input_constraints.s"
@@ -1498,6 +1583,9 @@ help:
 	@echo "... src/time_evaluation_node.o"
 	@echo "... src/time_evaluation_node.i"
 	@echo "... src/time_evaluation_node.s"
+	@echo "... src/traj_gen.o"
+	@echo "... src/traj_gen.i"
+	@echo "... src/traj_gen.s"
 	@echo "... src/trajectory_sampler_node.o"
 	@echo "... src/trajectory_sampler_node.i"
 	@echo "... src/trajectory_sampler_node.s"

@@ -81,9 +81,6 @@ class LeePositionControllerNode {
       const geometry_msgs::PoseStampedConstPtr& pose_msg);
 
   void OdometryCallback(const nav_msgs::OdometryConstPtr& odometry_msg);
-
-  /*void UpdaterCallback(const std_msgs::String::ConstPtr& update); //Added by Viswa*/
-  void callback(const sensor_msgs::LaserScan::ConstPtr& input);
   
 };
 }

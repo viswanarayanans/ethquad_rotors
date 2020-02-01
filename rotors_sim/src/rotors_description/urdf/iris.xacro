@@ -138,7 +138,7 @@
     <origin xyz="-${arm_length_back_x} -${arm_length_back_y} ${rotor_offset_top}" rpy="0 0 0" />
     <xacro:insert_block name="rotor_inertia" />
   </xacro:vertical_rotor>
-
+<!-- 
   <link name="${namespace}/box">
     <xacro:box_inertial x="-0.1" y="-0.1" z="-0.1" mass="0.2">
       <origin xyz="0 0 0" />
@@ -163,10 +163,15 @@
     <child link="${namespace}/box" />
   </joint> 
 
-
-
+ -->
+<!-- 
 <xacro:velodyne name="${namespace}/lidar" parent="${namespace}/base_link">
   <origin xyz="0.0 0.0 0.2" rpy="0 0 0"/>
 </xacro:velodyne>
+ -->
+<xacro:kinect_module name="${namespace}/kinect" parent="${namespace}/base_link">
+  <origin xyz="0.2 0.0 0.05" rpy="0 0 0"/>
+</xacro:kinect_module>
+
 
 </robot>

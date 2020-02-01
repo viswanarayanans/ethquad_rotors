@@ -1,0 +1,14 @@
+m_cap: 2.57
+eeta_p: 2
+eeta_q: 0.3
+length: 0.3
+side: 0.2
+gravity: 9.81
+arm_length: 0.24
+payload_mass: 0.5
+rotor_mass: 0.08
+var_pi_p: 1
+var_pi_q: 1
+
+theta_p: {x: 1.5, y: 1.5, z: 1.5}
+theta_q: {x: 4.5, y: 4.5, z: 3.5} 
